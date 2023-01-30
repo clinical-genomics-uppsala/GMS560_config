@@ -1,0 +1,3 @@
+
+annotate_cnv:
+  cnv_loh_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_uppsala_genes.bed"
