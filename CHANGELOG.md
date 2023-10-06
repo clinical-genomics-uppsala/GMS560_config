@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.1.1...v1.2.0) (2023-10-06)
+
+
+### Features
+
+* config for nextseq2000 ([e69ab9b](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/e69ab9b82cd522113964cc1c858571ca8e1115ce))
+
 ### [1.1.1](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.1.0...v1.1.1) (2023-08-18)
 
 
