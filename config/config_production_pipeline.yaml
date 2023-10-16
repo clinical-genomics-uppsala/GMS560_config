@@ -8,6 +8,9 @@ cnvkit_batch:
 cnvkit_batch_hrd:
   normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn"
 
+hotspot_annotation:
+  hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
+
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_nextseq2000_23.hdf5"
 
@@ -17,3 +20,4 @@ msisensor_pro:
 purecn:
   extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_nextseq2000_23_hg19.rds"
   normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_nextseq2000_23_hg19.rds"
+
