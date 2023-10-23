@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.2.0...v1.3.0) (2023-10-23)
+
+
+### Features
+
+* added extra resources for fusioncatcher ([5e5e961](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/5e5e961f48848e4e15a013fc8f846ed2d38b8ecb))
+* new resources specified in production config ([67de868](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/67de8682247688e62ce089e2b5713db49b8a266d))
+* new TERT variants for hotspot ([c629980](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/c629980817d4cb5c606f0b22d494d95aea9d2201))
+
+
+### Bug Fixes
+
+* use several config files in profile ([3de7cc6](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/3de7cc6809af01c5049a1fad20c50b07e9b8d38e))
+
 ## [1.2.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.1.1...v1.2.0) (2023-10-06)
 
 
