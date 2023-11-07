@@ -1,4 +1,4 @@
-resources: "config/resources_production.yaml"
+resources: "GMS560_config/config/resources_production.yaml"
 
 reference:
   background: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_nextseq2000_23_dp500_af015.tsv"
