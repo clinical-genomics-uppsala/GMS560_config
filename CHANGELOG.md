@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.3.1](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.0...v1.3.1) (2023-11-07)
+
+
+### Bug Fixes
+
+* increased resource time for star_fusion ([346bd76](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/346bd76ccbf6b68af4c4d2857c089a7b6c34da81))
+* path to production resources file ([1907681](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/1907681ec5049b64c719c26aa7375755df4f8106))
+
 ## [1.3.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.2.0...v1.3.0) (2023-10-23)
 
 
