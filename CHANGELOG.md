@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.2](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.1...v1.3.2) (2023-11-09)
+
+
+### Bug Fixes
+
+* add 2 new TERT variants also in reports ([008b622](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/008b6222059e8f7ef2fc7b37c7e82617ca51efce))
+
 ### [1.3.1](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.0...v1.3.1) (2023-11-07)
 
 
