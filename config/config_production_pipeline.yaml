@@ -71,6 +71,7 @@ exon_skipping:
   design_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.bed"
 
 filter_fuseq_wes:
+  gene_fusion_black_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/false_positive_fusion_pairs.txt"
   gene_white_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_gene_white_list.txt"
   transcript_black_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_transcript_black_list.txt"
   gtf: "/data/ref_genomes/hg19/gtf/hg19.refGene.gtf"
