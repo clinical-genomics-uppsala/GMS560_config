@@ -147,3 +147,6 @@ tmb:
 
 tmb_umi:
   filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
+
+vep:
+  vep_cache:  "/data/ref_genomes/VEP/"
