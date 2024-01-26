@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.3](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.2...v1.3.3) (2024-01-26)
+
+
+### Bug Fixes
+
+* add home directory mount for cnv report ([9126c31](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/9126c316ed5bc3abf655ce4e9b94e458c7f74b81))
+
 ### [1.3.2](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.1...v1.3.2) (2023-11-09)
 
 
