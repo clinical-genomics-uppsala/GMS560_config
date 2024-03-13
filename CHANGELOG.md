@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.3...v1.4.0) (2024-03-13)
+
+
+### Features
+
+* update config for v0.12.0 of Twist solid pipeline ([1af940c](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/1af940c346dc7d1c5df3e483386ac011cd0983ac))
+
 ### [1.3.3](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.2...v1.3.3) (2024-01-26)
 
 
