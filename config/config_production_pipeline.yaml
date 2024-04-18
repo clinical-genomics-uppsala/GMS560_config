@@ -56,6 +56,9 @@ call_small_cnv_deletions:
 call_small_cnv_amplifications:
   regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes.tsv"
 
+cnv_tsv_report:
+  chrom_arm_size: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/chromosome_arm_size.tsv"
+
 cnvkit_batch:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23.cnn"
 
