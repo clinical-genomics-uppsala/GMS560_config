@@ -57,7 +57,7 @@ call_small_cnv_amplifications:
   regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes.tsv"
 
 cnvkit_batch:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23.cnn"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq_27_design_only_hg19.cnn"
 
 cnvkit_batch_hrd:
   normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn"
