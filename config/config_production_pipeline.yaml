@@ -16,7 +16,7 @@ reference:
     - "chrM"
 
 annotate_cnv:
-  cnv_amp_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes.bed"
+  cnv_amp_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed"
   cnv_loh_genes_validated: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_uppsala_genes.bed"
   cnv_loh_genes_all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed"
 
@@ -54,7 +54,10 @@ call_small_cnv_deletions:
   regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_deletion_genes.tsv"
 
 call_small_cnv_amplifications:
-  regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes.tsv"
+  regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes_240307.tsv"
+
+cnv_tsv_report:
+  chrom_arm_size: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/chromosome_arm_size.tsv"
 
 cnvkit_batch:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq_27_design_only_hg19.cnn"
