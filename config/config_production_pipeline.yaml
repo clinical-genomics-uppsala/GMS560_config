@@ -119,7 +119,7 @@ manta_config_t:
 
 merge_cnv_json:
   annotations:
-    - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes.bed
+    - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed
     - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed
 
 msisensor_pro:
