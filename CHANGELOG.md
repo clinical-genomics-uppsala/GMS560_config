@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.4.0...v1.5.0) (2024-04-29)
+
+
+### Features
+
+* file for new large CNV table in report ([f7bff83](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/f7bff83ffe193ffdec4779f4ff57ecb34a7ed8cf))
+* two new amp genes ([faf389a](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/faf389a09d499b1c5874c5e2e1852b6a38115857))
+* update annotation of new CNV amplification genes ([683be50](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/683be50fa13970e4de63417a52c93ff540f1f975))
+
 ## [1.4.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.3.3...v1.4.0) (2024-03-13)
 
 
