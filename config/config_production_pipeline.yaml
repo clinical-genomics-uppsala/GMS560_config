@@ -69,9 +69,6 @@ cnvkit_batch_hrd:
 hotspot_annotation:
   hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
 
-hotspot_info:
-  hotspot_mutations: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
-
 hotspot_report:
   hotspot_mutations: 
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Hotspots_combined_regions_nodups.231011.csv"
