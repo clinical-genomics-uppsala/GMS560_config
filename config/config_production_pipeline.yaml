@@ -100,6 +100,7 @@ hotspot_annotation:
   hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
 
 hotspot_report:
+  chr_translation_file: "config/reports/hotspot_report.chr.translation.hg19"
   hotspot_mutations: 
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Hotspots_combined_regions_nodups.231011.csv"
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/ENC_hotspots.csv"
