@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.6.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.5.0...v1.6.0) (2024-05-30)
+
+
+### Features
+
+* add genefuse files ([58e9d2c](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/58e9d2c2488fa260da744942bb70b484f7d7b0b3))
+* added ENC cov and mut ([e6d5e60](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/e6d5e60f82e63d3a76ee2db717813aab517c325b))
+* added file for filtering of cnv small deletions ([49d0b19](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/49d0b19c6db225f166e6c8379c3d55dc83f25de9))
+* fusions in umi ([ac776bf](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/ac776bf4cdfd869358774fe8abb3f88d74288dc0))
+* new combined PoN ([254e34f](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/254e34fd46ac84202ad7d45c1748067cf4da7b6b))
+
+
+### Bug Fixes
+
+* add missing file ([89e6719](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/89e671928ef339be02e85e6196bdfb853e0aad88))
+* corrected filepath ([c0e01ff](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/c0e01ff3d6cecc9afa0fb048ea304d22c7b37ec9))
+* duplicate entries ([c542d70](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/c542d709321e93fa9f3dfde01cef466c4096fb78))
+* remove testing changes ([9753f88](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/9753f886ca70616b722994b208d1c0237c3f9a48))
+* rm unused rule ([188815e](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/188815e4fc9be3ddfeb032eb095ae95889cae414))
+
 ## [1.5.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.4.0...v1.5.0) (2024-04-29)
 
 
