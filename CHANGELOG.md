@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.6.0...v1.7.0) (2024-06-04)
+
+
+### Features
+
+* updated ENC file ([8a5110c](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/8a5110c423bcb8a1bb39f0bdfb19ec83d9e6ec10))
+
 ## [1.6.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.5.0...v1.6.0) (2024-05-30)
 
 
