@@ -122,7 +122,7 @@ merge_cnv_json:
   annotations:
     - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed
     - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed
-  cytobands: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/cnv/cytoBand.hg19.txt"
+  cytobands: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cytoBand.hg19.txt"
 
 msisensor_pro:
   PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_nextseq2000_23.list_baseline"
