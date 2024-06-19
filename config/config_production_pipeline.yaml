@@ -18,7 +18,7 @@ reference:
 annotate_cnv:
   cnv_amp_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed"
   cnv_loh_genes_validated: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_uppsala_genes.bed"
-  cnv_loh_genes_all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed"
+  cnv_loh_genes_all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes_240618.bed"
 
 arriba:
   assembly: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fasta"
@@ -52,7 +52,7 @@ bwa_mem:
 
 call_small_cnv_deletions:
   blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/small_deletions_caller_blacklist.tsv"
-  regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_deletion_genes.tsv"
+  regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_deletion_genes_240618.tsv"
 
 call_small_cnv_amplifications:
   regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes_240307.tsv"
