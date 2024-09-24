@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.8.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.7.0...v1.8.0) (2024-09-24)
+
+
+### Features
+
+* add cytobands to cnv report ([ca439a3](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/ca439a309e47830123262bb57aaa7c5d97eaeaf2))
+* rm noisy MUC6 from cnv VAF plot ([1ea5910](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/1ea59102fdc466e286569e564fb94948d07821f2))
+* update ENC hotspot file ([7206264](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/7206264772b700fa7657c1bd558daf2124db98c2))
+
+
+### Bug Fixes
+
+* filepath ([ab7cd00](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/ab7cd004fb677cd20434d1e5614bb06091cf57ce))
+* rm CDH1 from reporting of cnv deletions ([e71ac55](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/e71ac55a2da433941b4995bdebe1565d6e066588))
+
 ## [1.7.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.6.0...v1.7.0) (2024-06-04)
 
 
