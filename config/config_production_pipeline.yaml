@@ -115,6 +115,9 @@ hotspot_report:
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_240919.csv"
 
+jumble_run:
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble.combined.filtered.50.PoN.hg19.RDS"
+
 manta_config_t:
   extra: "--exome --callRegions /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.210608.bed.gz"
 
