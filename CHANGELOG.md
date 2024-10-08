@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.8.0...v1.9.0) (2024-10-02)
+
+
+### Features
+
+* add jumble resources ([aacf06a](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/aacf06a2aa4db1213ad17b9b9ce1ef9212ef4618))
+* new rna fusion gene and filter option ([aabd88e](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/aabd88e8f135ecc13eb6d6cda7b34296d02612ab))
+
 ## [1.8.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.7.0...v1.8.0) (2024-09-24)
 
 
