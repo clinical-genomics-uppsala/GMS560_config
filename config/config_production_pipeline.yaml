@@ -116,9 +116,9 @@ hotspot_report:
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_240919.csv"
 
 juli_annotate:
-  cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
-  pfam: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
-  ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/Pfam-A.full.human"
+  cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
+  pfam: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/Pfam-A.full.human"
+  ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
   uniprot: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/HGNC_GeneName_UniProtID_160524.txt"
 
 juli_call:
