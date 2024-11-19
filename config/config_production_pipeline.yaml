@@ -9,7 +9,7 @@ reference:
   fai: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fai"
   design_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.reannotated.230222.bed"
   design_intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.MUC6_31_rm.exon_only.reannotated.210608.interval_list"
-  design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2_nochr_3c.sort.merged.padded20.cnv400.hg19.210311.met.annotated.bed.preprocessed.interval_list"
+  design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.xleap_ns2000_22.interval_list"
   design_bed_rna: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.bed"
   design_intervals_rna: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.20230630.interval_list"
   skip_chrs:
@@ -61,7 +61,7 @@ cnv_tsv_report:
   chrom_arm_size: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/chromosome_arm_size.tsv"
 
 cnvkit_batch:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_PoN_combined_hg19.cnn"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_xleap_ns2000_22.cnn"
 
 cnvkit_batch_hrd:
   normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn"
@@ -95,7 +95,7 @@ gatk_collect_allelic_counts:
   SNP_interval: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gnomad_SNP_0.001_target.annotated.interval_list"
   
 gatk_denoise_read_counts:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_nextseq2000_23.hdf5"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_xleap_ns2000_22.hdf5"
 
 gatk_get_pileup_summaries:
   sites: "/data/ref_genomes/GNOMAD/small_exac_common_3.hg19.vcf.gz"
@@ -126,7 +126,7 @@ juli_call:
   ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
 
 jumble_run:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble.combined.filtered.50.PoN.hg19.RDS"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_xleap_ns2000_22.PoN.RDS"
 
 manta_config_t:
   extra: "--exome --callRegions /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.210608.bed.gz"
@@ -138,11 +138,11 @@ merge_cnv_json:
   cytobands: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cytoBand.hg19.txt"
 
 msisensor_pro:
-  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_nextseq2000_23.list_baseline"
+  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline"
 
 purecn:
-  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_nextseq2000_23_hg19.rds"
-  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_nextseq2000_23_hg19.rds"
+  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_xleap_ns2000_22.rds"
+  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_xleap_ns2000_22.rds"
   intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_intervals.txt"
 
 purecn_coverage:
