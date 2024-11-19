@@ -83,7 +83,7 @@ gene_fuse:
   mem_per_cpu: 6144
 
 jumble_run:
-  threads: 10
+  threads: 5
 
 vardict:
   time: "48:00:00"
