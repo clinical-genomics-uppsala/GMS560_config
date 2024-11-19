@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.10.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.9.0...v1.10.0) (2024-11-19)
+
+
+### Features
+
+* DNA caller JuLI ([fa5ae24](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/fa5ae24be96ad096032b6afe017ed6a75ec7cb7b))
+* xleap panel of normals ([7b90d85](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/7b90d85d315cfe2e60dcf1d34b252b58af8ed1d2))
+* **xleap:** update PoN to xleap chemistry ([084d317](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/084d3171d3711f28aef7aa8d0fe183a5d044e5c2))
+
+
+### Bug Fixes
+
+* added resources for juli ([e540276](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/e540276b6a48a81b8489eb806a5e2401aaea8f32))
+* correct file to correct db ([d2b3352](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/d2b33527ba32441047a0543a592ebaf549b27000))
+* decreased resources to jumble ([69b6876](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/69b687666aafcf3e8e6218a92b65694c845ab412))
+* **juli_call:** increased resources and time ([aa3adc6](https://www.github.com/clinical-genomics-uppsala/GMS560_config/commit/aa3adc662b95841fe7ef531d14494878c0823983))
+
 ## [1.9.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.8.0...v1.9.0) (2024-10-02)
 
 
