@@ -115,6 +115,16 @@ hotspot_report:
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_240919.csv"
 
+juli_annotate:
+  cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
+  pfam: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/Pfam-A.full.human"
+  ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
+  uniprot: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/HGNC_GeneName_UniProtID_160524.txt"
+
+juli_call:
+  gap_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/gap_hg19.txt"
+  ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
+
 jumble_run:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_xleap_ns2000_22.PoN.RDS"
 
