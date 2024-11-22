@@ -137,8 +137,9 @@ merge_cnv_json:
     - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed
   cytobands: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cytoBand.hg19.txt"
 
-msisensor_pro:
+msisensor_pro_filter_sites:
   PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline"
+  msi_sites_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/SelectedMSIloci2019Sorted.bed"
 
 purecn:
   extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_xleap_ns2000_22.rds"
