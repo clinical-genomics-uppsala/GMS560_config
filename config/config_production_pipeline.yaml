@@ -144,10 +144,10 @@ msisensor_pro_filter_sites:
 purecn:
   extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_xleap_ns2000_22.rds"
   normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_xleap_ns2000_22.rds"
-  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_intervals.txt"
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt"
 
 purecn_coverage:
-  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_intervals.txt"
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt"
 
 report_fusions:
   annotation_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_fusionpartners.bed"
