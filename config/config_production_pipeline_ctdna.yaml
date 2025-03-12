@@ -42,7 +42,7 @@ svdb_query:
   db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/all_TN_292_svdb_0.8_20220505.vcf --out_frq Twist_AF --out_occ Twist_OCC"
 
 tmb_umi:
-  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24.tsv  "
+  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24.tsv"
   filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
   filter_regions:
     - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/ENCODE_problematic_regions.bed"
