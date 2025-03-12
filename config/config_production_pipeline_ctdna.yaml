@@ -13,10 +13,10 @@ cnvkit_batch_hrd:
 
 estimate_ctdna_fraction:
   problematic_regions_beds:
-    - "{{PROJECT_DESIGN_DATA}}/GMS560/annotation/ENCODE_problematic_regions.bed"
-    - "{{PROJECT_DESIGN_DATA}}/GMS560/annotation/segmental_dup_regions.bed"
-    - "{{PROJECT_DESIGN_DATA}}/GMS560/annotation/simple_repeat_regions.bed"
-    - "{{PROJECT_DESIGN_DATA}}/GMS560/annotation/windowmaskSdust_repetetive_regions.bed"
+    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/ENCODE_problematic_regions.bed"
+    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/GMS560/annotation/segmental_dup_regions.bed"
+    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/GMS560/annotation/simple_repeat_regions.bed"
+    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/GMS560/annotation/windowmaskSdust_repetetive_regions.bed"
   
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5"
