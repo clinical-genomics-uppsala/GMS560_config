@@ -169,7 +169,7 @@ report_gene_fuse:
   filter_fusions: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/gene_fuse/filter_fusions_20230214.csv"
 
 scanitd:
-  region_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/scanITD_regions.bed"
+  region_bed: "-t /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/scanITD_regions.bed"
 
 scarhrd:
   reference_name: "grch37"
