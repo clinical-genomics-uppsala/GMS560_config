@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.12.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.11.0...v1.12.0) (2025-06-12)
+
+
+### Features
+
+* add uro coverage and mutations ([6ae1d77](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/6ae1d770e58bf3f00f93556ab516496479bfe243))
+* add uro coverage and mutations ([bf37f04](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/bf37f04266126b4979eae3aeccd3f7a05f28a9ad))
+* added fasta 2bit file for fragmentomics ([757ee69](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/757ee6997ba1b0858a4efe9aa70e78dfee7bc7b2))
+* added fasta 2bit file for fragmentomics ([90822b8](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/90822b89bfd97ee6fb72b4a917643c7d0907e178))
+* scanitd regions ([60c413a](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/60c413a46de20d672737537b7cef811ec3ae4aa2))
+* scanitd regions ([58fee4d](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/58fee4d2f86674236a97d359316ec8338e3042cd))
+
 ## [1.10.0](https://www.github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.9.0...v1.10.0) (2024-12-05)
 
 
