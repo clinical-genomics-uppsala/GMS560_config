@@ -174,8 +174,8 @@ scarhrd:
   reference_name: "grch37"
 
 seqtk_subsample:
-  nr_reads: 100000000
-  nr_reads_rna: 25000000
+  nr_reads: 150000000
+  nr_reads_rna: 30000000
 
 star:
   container: "docker://hydragenetics/star:2.7.10a"
