@@ -2,6 +2,8 @@ resources: "GMS560_config/config/resources_production_ctdna.yaml"
 
 general_report: "config/reports/general_report.umi.yaml"
 
+subsample: "seqtk"
+
 reference:
   background: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_cfDNA_nextseq2000_24.tsv"
   artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24.tsv"
@@ -40,6 +42,9 @@ purecn:
 
 purecn_coverage:
   intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals.txt"
+
+seqtk_subsample:
+  nr_reads: 200000000
 
 svdb_query:
   db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/all_TN_292_svdb_0.8_20220505.vcf --out_frq Twist_AF --out_occ Twist_OCC"
