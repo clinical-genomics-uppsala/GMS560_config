@@ -22,6 +22,9 @@ estimate_ctdna_fraction:
     - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/segmental_dup_regions.bed"
     - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/simple_repeat_regions.bed"
     - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/windowmaskSdust_repetetive_regions.bed"
+
+fragmentomics_fragment_length_patient_score:
+  reference_set: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/vessies_reference_set.txt"
   
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5"
