@@ -126,8 +126,8 @@ hotspot_report:
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_240919.csv"
     URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/URO_hotspots.csv"
+    CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20250220.csv"
     
-
 juli_annotate:
   cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
   pfam: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/Pfam-A.full.human"
