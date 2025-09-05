@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.14.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.13.0...v1.14.0) (2025-09-05)
+
+
+### Features
+
+* add PTEN MANE to CRC ([06de918](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/06de918b3447af3501db4655c616ff9485a7e803))
+* add PTEN MANE to CRC ([d7f872e](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d7f872e7c418d4db1333317a465e40582aa0def4))
+
 ## [1.12.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.11.0...v1.12.0) (2025-06-12)
 
 
