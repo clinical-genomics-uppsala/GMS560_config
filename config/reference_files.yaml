@@ -1,0 +1,65 @@
+  reference:
+    artifacts: 
+      checksum: ec44b54ef2d8f58a1afd2d14ace4a86b
+      path: GMS560/Artifact/artifact_panel_nextseq2000_combo_53.tsv
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_nextseq2000_combo_53.tsv
+
+    background:
+      checksum: 6ba98fbbfc989caed5807da8763daba9
+      path: GMS560/Background/background_panel_nextseq2000_23_dp500_af015.tsv
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_nextseq2000_23_dp500_af015.tsv
+
+  cnvkit:
+    normal_reference:
+      checksum: a2b846a0e94e59faca2102a576d76fb3
+      path: GMS560/PoN/cnvkit_xleap_ns2000_22.cnn
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_xleap_ns2000_22.cnn
+
+    normal_reference_hrd:
+      checksum: 407bff13de54f0d4a02f2abd8daaf578
+      path: GMS560/PoN/cnvkit_nextseq2000_23_HRD.cnn
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn
+
+  gatk_denoise_read_counts:
+    normal_reference:
+      checksum: cd7bc3c988141ac900156beb19e1f12a
+      path: GMS560/PoN/gatk_cnv_xleap_ns2000_22.hdf5
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_xleap_ns2000_22.hdf5
+
+  jumble_run:
+    normal_reference:
+      checksum: 2f43cf9f23726be27511641e8fe9262d
+      path: GMS560/PoN/jumble_xleap_ns2000_22.PoN.RDS
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_xleap_ns2000_22.PoN.RDS
+
+  msisensor:
+    PoN:
+      checksum: 5f511893b13fa5a4e56ac184381c3662
+      path: GMS560/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline
+
+  purecn:
+    mapping_bias: 
+      checksum: d4b86e2def0a260ffe078a21d315f209
+      path: GMS560/PoN/purecn/mapping_bias_xleap_ns2000_22.rds
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_xleap_ns2000_22.rds
+
+    normaldb:
+      checksum: 7be33a28f942b43a97ba99b84a472294
+      path: GMS560/PoN/purecn/normalDB_xleap_ns2000_22.rds
+      type: file
+      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_xleap_ns2000_22.rds
+
+    intervals: 
+     checksum: a19ef4a67f3d370daaac4890fae25097
+     path: GMS560/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt
+     type: file
+     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt
