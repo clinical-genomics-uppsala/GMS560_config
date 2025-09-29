@@ -1,3 +1,7 @@
+PROJECT_DESIGN_DATA: "/proj/ngi2024001/nobackup/bin/wp1_gms560/design_and_ref_files"
+PROJECT_PON_DATA: "/proj/ngi2024001/nobackup/bin/wp1_gms560/design_and_ref_files"
+PROJECT_REF_DATA: "/proj/ngi2024001/nobackup/bin/wp1_gms560/design_and_ref_files"
+
 resources: "GMS560_config/config/resources_production.yaml"
 
 general_report: "config/reports/general_report.yaml"
