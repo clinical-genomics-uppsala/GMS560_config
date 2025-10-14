@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.15.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.15.0...v1.15.1) (2025-10-14)
+
+
+### Bug Fixes
+
+* Update config_production_pipeline.yaml ([22637c1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/22637c1700e072a10635e9a4e47d90435f8bce6a))
+* Update config_production_pipeline.yaml ([0509231](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/0509231a027a299472491102374a391b1446bd92))
+
 ## [1.15.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.14.0...v1.15.0) (2025-09-26)
 
 
