@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.16.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.15.1...v1.16.0) (2025-10-17)
+
+
+### Features
+
+* updated cov and mutations files ([bade1cb](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/bade1cb8f8cae0b59ac90b2a752def9dc173914d))
+* updated cov and mutations files ([a646c57](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/a646c57cc361a9d200b4bf6d483ed70946af2d78))
+
 ## [1.15.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.15.0...v1.15.1) (2025-10-14)
 
 
