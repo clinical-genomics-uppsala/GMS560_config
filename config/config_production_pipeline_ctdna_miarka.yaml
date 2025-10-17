@@ -1,0 +1,8 @@
+resources: "GMS560_config/config/resources_production_ctdna.yaml"
+
+general_report: "config/reports/general_report.umi.yaml"
+
+subsample: "seqtk"
+
+seqtk_subsample:
+  nr_reads: 200000000
