@@ -4,7 +4,7 @@ PROJECT_REF_DATA: "/proj/ngi2024001/nobackup/bin/wp1_gms560/design_and_ref_files
 
 hydra_local_path: "/proj/ngi2024001/nobackup/bin/wp1_gms560/hydra-genetics"
 
-resources: "GMS560_config/config/resources_production.yaml"
+resources: "GMS560_config/config/Miarka/resources_production_miarka.yaml"
 
 general_report: "config/reports/general_report.yaml"
 

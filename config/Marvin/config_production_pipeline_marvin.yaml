@@ -1,4 +1,4 @@
-resources: "GMS560_config/config/resources_production.yaml"
+resources: "GMS560_config/config/Marvin/resources_production_marvin.yaml"
 
 general_report: "config/reports/general_report.yaml"
 
