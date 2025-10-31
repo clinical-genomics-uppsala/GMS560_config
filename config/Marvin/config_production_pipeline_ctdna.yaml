@@ -1,4 +1,4 @@
-resources: "GMS560_config/config/resources_production_ctdna.yaml"
+resources: "GMS560_config/config/Marvin/resources_production_ctdna.yaml"
 
 general_report: "config/reports/general_report.umi.yaml"
 
@@ -15,13 +15,6 @@ cnvkit_batch:
 
 cnvkit_batch_hrd:
   normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn"
-
-estimate_ctdna_fraction:
-  problematic_regions_beds:
-    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/ENCODE_problematic_regions.bed"
-    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/segmental_dup_regions.bed"
-    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/simple_repeat_regions.bed"
-    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/windowmaskSdust_repetetive_regions.bed"
 
 fragmentomics_fragment_length_patient_score:
   reference_set: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/vessies_reference_set.txt"

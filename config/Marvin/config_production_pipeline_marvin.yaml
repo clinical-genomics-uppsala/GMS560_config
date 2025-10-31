@@ -1,4 +1,4 @@
-resources: "GMS560_config/config/resources_production.yaml"
+resources: "GMS560_config/config/Marvin/resources_production_marvin.yaml"
 
 general_report: "config/reports/general_report.yaml"
 
@@ -200,9 +200,6 @@ svdb_query:
   db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/all_TN_292_svdb_0.8_20220505.vcf --out_frq Twist_AF --out_occ Twist_OCC"
 
 tmb:
-  filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
-
-tmb_umi:
   filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
 
 vep:
