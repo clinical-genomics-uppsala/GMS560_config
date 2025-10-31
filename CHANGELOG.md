@@ -1,5 +1,39 @@
 # Changelog
 
+## [1.16.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.15.1...v1.16.0) (2025-10-17)
+
+
+### Features
+
+* updated cov and mutations files ([bade1cb](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/bade1cb8f8cae0b59ac90b2a752def9dc173914d))
+* updated cov and mutations files ([a646c57](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/a646c57cc361a9d200b4bf6d483ed70946af2d78))
+
+## [1.15.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.15.0...v1.15.1) (2025-10-14)
+
+
+### Bug Fixes
+
+* Update config_production_pipeline.yaml ([22637c1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/22637c1700e072a10635e9a4e47d90435f8bce6a))
+* Update config_production_pipeline.yaml ([0509231](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/0509231a027a299472491102374a391b1446bd92))
+
+## [1.15.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.14.0...v1.15.0) (2025-09-26)
+
+
+### Features
+
+* added Uppsala specific reference files ([9f14b99](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/9f14b9949ddf3e65809447c16cc1b32ec102408e))
+* added Uppsala specific reference files ([26920ce](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/26920cef8b6e600da65c7185edcee1bd4815eb23))
+* set prio to high ([be9e97d](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/be9e97df0bb3927736b9d86604bf11487cb92666))
+* set prio to high ([b9875f2](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/b9875f282027883722d9777ce7ca4bdfa83f4e59))
+
+
+### Bug Fixes
+
+* rename analysis ([6f89c9b](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/6f89c9b298b126e70e7329615c1c00fcd9538bd4))
+* rename analysis ([69c1875](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/69c187514bc02311f657e6bfb072d073c398a37f))
+* renamed analysis from small_analysis to prio ([e83faa2](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e83faa2de0fcb28a75df06d237b0aaa3963e6149))
+* renamed analysis from small_analysis to prio ([c2e0b8e](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/c2e0b8ec8f8b842bae7298ea2c840158f125a926))
+
 ## [1.14.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.13.0...v1.14.0) (2025-09-05)
 
 
