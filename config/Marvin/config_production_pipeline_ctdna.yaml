@@ -1,4 +1,4 @@
-resources: "GMS560_config/config/resources_production_ctdna.yaml"
+resources: "GMS560_config/config/Marvin/resources_production_ctdna.yaml"
 
 general_report: "config/reports/general_report.umi.yaml"
 
