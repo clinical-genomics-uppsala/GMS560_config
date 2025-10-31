@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.17.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.16.0...v1.17.0) (2025-10-31)
+
+
+### Features
+
+* added Miarka config files ([fd9b911](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/fd9b911a6b90f4f2fbb136d5e38d2e6de3971fe5))
+* added profile for pgx ([5fe5b17](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/5fe5b17c5874f3ec0fb483364c94ee9191bf655b))
+* added profile for pgx ([e1655ce](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e1655ced2e7932548c4446eca5b245454683bbce))
+
+
+### Bug Fixes
+
+* **config.yaml:** Restored path to hg19.ctdna-conf ([35a6b37](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/35a6b3783ce9c861b89e3521ad96be9c1fd2e1ea))
+* **config:** Separate config and resources on host ([f21656a](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/f21656a4f19862fb796a5ff205f0e2147792989a))
+* **host.yaml:** Config separated on host ([1f53b48](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/1f53b48279f06d5639ebb6c24065490476754b47))
+* **host.yaml:** Updated paths to configs ([c547a8b](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/c547a8bab34f517399a8e2076fc04e0c8ef21d8d))
+* **resources:** Read resources from config. ([3e8a5d5](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3e8a5d5d64f039977beaeff676b83314b26fb53a))
+* Update config_production_pipeline_ctdna.yaml ([8a68b08](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/8a68b088e80089b86814c240032e4a11f55ae6bc))
+* Update config_production_pipeline_miarka.yaml ([1a56d42](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/1a56d4203932402470a52b54b78c9596814f794c))
+* Update config.yaml ([0ed1968](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/0ed1968ffab4c6b378bdf4d0eea84f92743e196c))
+* Update config.yaml ([f32cdad](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/f32cdad55c5f6f44230c5ab20d9d1ec0fab71967))
+* Update config.yaml ([a34002d](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/a34002d23ae2d7b9dede7ae30e42f06f60bc607c))
+* Update resources_production.yaml ([003cfd7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/003cfd78580b4cea09df1d4e280a0f61fcc94cba))
+
 ## [1.16.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.15.1...v1.16.0) (2025-10-17)
 
 
