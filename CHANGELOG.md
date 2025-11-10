@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.18.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.17.0...v1.18.0) (2025-11-10)
+
+
+### Features
+
+* added ctat-splicing ([b84f570](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/b84f570859ecae1cf21bf170eecd7044d1edc821))
+* Added ctat-splicing ([3ebd514](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3ebd514a87fd93457cf29b7cfd199d2a8cdff250))
+* run ctDNA using profile ([9862593](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/9862593fa6d1f21ad615f3052c7f536edd85185c))
+* run ctDNA using profile ([d24d9a7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d24d9a70638b87155147e226694ab78a3c893a4e))
+
+
+### Bug Fixes
+
+* **miarka-config:** Set pipeline version in path ([cc0ec06](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/cc0ec06b272df51cc5bf34345dcc2710e7b8f9ef))
+* **miarka-config:** Set pipeline version in path ([1c5ec7e](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/1c5ec7ebd83b4c7cead0d27f01f0e8da9b4c55ea))
+
 ## [1.17.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.16.0...v1.17.0) (2025-10-31)
 
 
