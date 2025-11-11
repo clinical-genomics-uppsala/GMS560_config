@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.18.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.18.0...v1.18.1) (2025-11-11)
+
+
+### Bug Fixes
+
+* **config.yaml:** Jobs in queue miarka ([2ac3c84](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/2ac3c849366f4415c4bf8514c7723ccb8943a5cd))
+* **config.yaml:** Jobs in queue miarka ([8d296b2](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/8d296b21265a1723aad43fc128ca402bbfac67e7))
+
 ## [1.18.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.17.0...v1.18.0) (2025-11-10)
 
 
