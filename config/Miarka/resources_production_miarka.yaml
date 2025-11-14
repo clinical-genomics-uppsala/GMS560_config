@@ -43,8 +43,9 @@ fgbio_group_reads_by_umi:
   time: "8:00:00"
 
 fuseq_wes:
-  threads: 2
-  mem_mb: 12288
+  threads: 4
+  mem_mb: 24576
+  mem_per_cpu: 6144
   time: "24:00:00"
 
 fusioncatcher:
@@ -90,6 +91,12 @@ juli_call:
 
 jumble_run:
   threads: 5
+
+optitype:
+  threads: 8
+  time: "4:00:00"
+  mem_mb: 49152
+  mem_per_cpu: 6144
 
 vardict:
   time: "48:00:00"
