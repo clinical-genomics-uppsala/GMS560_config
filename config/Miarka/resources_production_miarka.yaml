@@ -5,6 +5,11 @@ default_resources:
   mem_per_cpu: 6144
   partition: "core"
 
+add_mosdepth_coverage_to_gvcf:
+  threads: 2
+  mem_mb: 12288
+  mem_per_cpu: 6144
+
 arriba:
   threads: 5
   time: "8:00:00"
