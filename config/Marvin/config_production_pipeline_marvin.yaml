@@ -71,7 +71,7 @@ cnvkit_batch_hrd:
   normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn"
 
 ctat_splicing_call:
-  ctat_genome_lib: "/data/ref_data/star-fusion/GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/"
+  ctat_genome_lib_path: "/data/ref_data/star-fusion/GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/"
 
 ctat_splicing_filter:
   filtering_file: "/beegfs-storage/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/filter_ctat_splicing.tsv"
