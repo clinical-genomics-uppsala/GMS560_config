@@ -8,6 +8,6 @@ max-status-checks-per-second: 100
 configfiles: ["config/config.yaml", "config/config.data.hg19.yaml", "GMS560_config/config/Miarka/config_production_pipeline_miarka.yaml", "GMS560_config/config/Miarka/config_production_pipeline_ctdna_miarka.yaml", "config/config.data.ctdna.hg19.yaml"]
 drmaa: "-p {resources.partition} -t {resources.time} -n {resources.threads} --mem={resources.mem_mb} --mem-per-cpu={resources.mem_per_cpu} {resources.gres} -J {rule} -A ngi2024001 -e slurm/{rule}_%j.err -o slurm/{rule}_%j.out --nodes=1-1"
 drmaa-log-dir: "slurm"
-singularity-args: "--cleanenv --containall -B /proj -B $TMPDIR:/tmp -B /home --nv"
+singularity-args: "--cleanenv --containall -B /proj -B $TMPDIR:/tmp -B $HOME --nv"
 singularity-prefix: "/proj/ngi2024001/nobackup/bin/wp1_gms560/apptainer_cache/"
 wrapper-prefix: "git+file://proj/ngi2024001/nobackup/bin/wp1_gms560/twist_solid/Twist_Solid_${TAG_OR_BRANCH}/snakemake-wrappers/"
