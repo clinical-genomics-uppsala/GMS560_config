@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.19.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.18.0...v1.19.0) (2025-11-28)
+
+
+### Features
+
+* added containall to all profiles ([82725f7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/82725f7522ac554e6ca3deb33a89b3bc54ebdffc))
+* added containall to all profiles ([e12de80](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e12de80b84f10eb4212ef4da901d0c42c4ffca0b))
+
+
+### Bug Fixes
+
+* **config.yaml:** Jobs in queue miarka ([2ac3c84](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/2ac3c849366f4415c4bf8514c7723ccb8943a5cd))
+* **config.yaml:** Jobs in queue miarka ([8d296b2](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/8d296b21265a1723aad43fc128ca402bbfac67e7))
+* **config.yaml:** Use node home-dir miarka ([74ee076](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/74ee0762f04fed15cd67e01f9387d2e8bc134906))
+* **config.yaml:** Use node home-dir miarka ([a53975d](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/a53975d6a79ee1b552aced3d38edd35e2f943e47))
+* correct ctat parameter name ([8ed93d3](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/8ed93d3da6be70b3d42bd8781b5a0fe3223e173b))
+* correct ctat parameter name ([f62f52c](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/f62f52c6b7f90a336aa2665d661947c6ab31a7e6))
+* deduplication ([94eeb43](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/94eeb433f32c660000927b9658cf785b0e08e506))
+* deduplication ([3e62512](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3e62512dd15fdcafb32ec79bd5a195218ec754ad))
+* more memory for add_mosdepth_coverage_to_gvcf ([82a655d](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/82a655dd84020655d2e80d2df1f22a88e270f36e))
+* update profile ([f4279d3](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/f4279d302a4accb5e5a0f6b67265b55e9ee75b03))
+* update profile ([bc0e956](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/bc0e9563bfdf9767b92e7ad185907da2bda19df0))
+
 ## [1.18.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.17.0...v1.18.0) (2025-11-10)
 
 
