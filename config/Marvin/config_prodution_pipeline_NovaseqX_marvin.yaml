@@ -1,0 +1,24 @@
+reference:
+  background: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_novaseqX_24_updated.tsv"
+  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_novaseqX_24_updated.tsv"
+  design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.novaseqX_24_updated.interval_list"
+
+cnvkit_batch:
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_novaseqX_24_updated.cnn"
+
+gatk_denoise_read_counts:
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_novaseqX_24_updated.hdf5"
+
+jumble_run:
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_24_updated.RDS"
+
+msisensor_pro_filter_sites:
+  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_novaseqX_24_updated.list_baseline"
+
+purecn:
+  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_novaseqX_24_updated.rds"
+  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_novaseqX_24_updated.rds"
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_novaseqX_24_updated_intervals.txt"
+
+purecn_coverage:
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_novaseqX_24_updated_intervals.txt"
