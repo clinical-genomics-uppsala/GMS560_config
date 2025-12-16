@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.20.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.19.0...v1.20.0) (2025-12-16)
+
+
+### Features
+
+* added configs for NovaseqX ([db23b88](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/db23b881d04063e08a019fed8d112b6f3e13fcad))
+* added configs for NovaseqX ([dc04339](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/dc04339c9f8b5ce58dbebac611c97cea0b1abdf8))
+
+
+### Bug Fixes
+
+* Rename config_prodution_pipeline_NovaseqX_marvin.yaml to config_produ… ([105850d](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/105850db323149de05b53025022b531f54da0441))
+
 ## [1.19.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.18.0...v1.19.0) (2025-11-28)
 
 
