@@ -160,6 +160,7 @@ merge_cnv_json:
     - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed
     - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed
   cytobands: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cytoBand.hg19.txt"
+  ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
 
 msisensor_pro:
   PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline"
