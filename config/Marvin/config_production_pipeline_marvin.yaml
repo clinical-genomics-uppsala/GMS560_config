@@ -124,20 +124,20 @@ gene_fuse:
 
 hotspot_annotation:
   chr_translation_file: "config/reports/hotspot_report.chr.translation.hg19"
-  hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.231011.csv"
+  hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260202.csv"
 
 hotspot_report:
   chr_translation_file: "config/reports/hotspot_report.chr.translation.hg19"
   hotspot_mutations: 
-    all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.251017.csv"
-    ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_240919.csv"
-    URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/URO_hotspots.csv"
-    CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20250905.csv"
-    BRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20191112.csv"
-    GIS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Gist_20251017.csv"
-    LUN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Lung_20251014.csv"
-    MEL: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Melanom_20251017.csv"
-    MTC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_251017.csv"
+    all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260202.csv"
+    ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_20260202.csv"
+    URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/URO_hotspots_20260202.csv"
+    CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260202.csv"
+    BRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20260202.csv"
+    GIS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Gist_20260202.csv"
+    LUN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Lung_20260202.csv"
+    MEL: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Melanom_20260202.csv"
+    MTC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260202.csv"
     
 juli_annotate:
   cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
