@@ -1,3 +1,4 @@
+
 resources: "GMS560_config/config/Marvin/resources_production_marvin.yaml"
 
 general_report: "config/reports/general_report.yaml"
@@ -130,8 +131,8 @@ hotspot_report:
   chr_translation_file: "config/reports/hotspot_report.chr.translation.hg19"
   hotspot_mutations: 
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260202.csv"
-    ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/ENC_hotspots_20260202.csv"
-    URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/URO_hotspots_20260202.csv"
+    ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_ENC_20260202.csv"
+    URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_URO_20260202.csv"
     CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260202.csv"
     BRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20260202.csv"
     GIS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Gist_20260202.csv"
