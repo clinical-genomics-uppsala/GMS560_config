@@ -139,6 +139,9 @@ hotspot_report:
     LUN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Lung_20260202.csv"
     MEL: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Melanom_20260202.csv"
     MTC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260202.csv"
+    PIK: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_PIK_20260217.csv"
+    VAS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260217.csv"
+    
     
 juli_annotate:
   cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
