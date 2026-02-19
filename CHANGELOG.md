@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.21.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.20.0...v1.21.0) (2026-02-19)
+
+
+### Features
+
+* **config_production_pipeline_marvin.yaml:** new cnv_report ([3be0799](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3be07995121df3eb9636a057ab099f6836bc1db5))
+* **config_production_pipeline_marvin.yaml:** new cnv_report ([0062b04](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/0062b0492be51cef9568cae3c95114e8c0463601))
+* **config_production_pipeline_marvin.yaml:** two new cov_and_mut files ([09b7e51](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/09b7e51f4eed7df6eabac0808211f88bbd23fbeb))
+* **config_production_pipeline_marvin.yaml:** two new cov_and_mut files ([0c371b0](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/0c371b0b23626192a83e7f799180c4134684be94))
+* **config_production_pipeline_marvin.yaml:** updated cov_and_mut files ([9d62ec3](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/9d62ec3dcc171ca9db489c12bd2f765eccd6c9b3))
+* **config_production_pipeline_marvin.yaml:** updated cov_and_mut files ([ec817e6](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/ec817e6498c86c6e7ad806e8017f7257e3f38627))
+
+
+### Bug Fixes
+
+* **config_production_pipeline_marvin.yaml:** correct cov_and_mut file… ([5d5c8c9](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/5d5c8c97eb24f1068ff0f153cfa535446813f352))
+* **config_production_pipeline_marvin.yaml:** correct cov_and_mut filenames ([85dc0cf](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/85dc0cf834f20f64b338b3e6afccd2c3a59d0164))
+
 ## [1.20.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.19.0...v1.20.0) (2026-01-09)
 
 
