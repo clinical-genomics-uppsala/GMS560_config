@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.22.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.21.0...v1.22.0) (2026-02-25)
+
+
+### Features
+
+* New cov_and_mut ([7049a03](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/7049a03bc605c56375f65740dd3de33d7af0f40b))
+* New cov_and_mut ([d4ed062](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d4ed0628eb8b0235b49f3e32083b88f336aecbda))
+
 ## [1.21.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.20.0...v1.21.0) (2026-02-19)
 
 
