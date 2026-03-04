@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.22.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.22.1...v1.22.2) (2026-03-04)
+
+
+### Bug Fixes
+
+* Update config_production_pipeline_marvin.yaml ([e721bf8](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e721bf8a48f3e8201bc6947918808802ea719f6a))
+* Update config_production_pipeline_marvin.yaml ([dc8cc60](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/dc8cc608e0ab7fe3e38fdffa56060fa0c7a2e496))
+
 ## [1.22.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.22.0...v1.22.1) (2026-03-04)
 
 
