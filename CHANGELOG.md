@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.22.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.22.0...v1.22.1) (2026-03-04)
+
+
+### Bug Fixes
+
+* cov and mut TP53 fix ([e01ed54](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e01ed546d6228c24c504e4fecca01f035dc63fa0))
+* cov and mut TP53 fix ([3544b7c](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3544b7c3d2bf79602fc9feca8cf0d69e4ab83e39))
+* updated cov and mut ([d578bef](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d578bef612d9e02376cb7a7bac546b484805a80c))
+
 ## [1.22.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.21.0...v1.22.0) (2026-02-25)
 
 
