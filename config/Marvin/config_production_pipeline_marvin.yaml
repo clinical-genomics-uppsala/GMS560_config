@@ -199,7 +199,7 @@ seqtk_subsample:
   nr_reads_rna: 30000000
 
 somalier_ungrouped_extract:
-  sites: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.reannotated.230222.bed"
+  sites: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/sites.hg19.vcf.gz"
 
 star:
   container: "docker://hydragenetics/star:2.7.10a"
