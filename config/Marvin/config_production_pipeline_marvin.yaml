@@ -198,6 +198,9 @@ seqtk_subsample:
   nr_reads: 150000000
   nr_reads_rna: 30000000
 
+somalier_ungrouped_extract:
+  sites: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/sites.hg19.vcf.gz"
+
 star:
   container: "docker://hydragenetics/star:2.7.10a"
   genome_index: "/data/ref_data/star/v2.7.10a_hg19/"
