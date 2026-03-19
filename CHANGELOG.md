@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.23.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.22.2...v1.23.0) (2026-03-19)
+
+
+### Features
+
+* somalier ([3e792da](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3e792dab3feaef0d0c9209ad06250ac49cc7df4a))
+* somalier ([14fa143](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/14fa14375d0c0484e5af2c6d42d12f0e856149a0))
+
+
+### Bug Fixes
+
+* Update config_production_pipeline_marvin.yaml ([20391ad](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/20391adf160ad2a28e19879048671552b3a5e56f))
+
 ## [1.22.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.22.1...v1.22.2) (2026-03-04)
 
 
