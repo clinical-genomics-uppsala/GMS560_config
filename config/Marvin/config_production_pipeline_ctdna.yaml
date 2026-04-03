@@ -18,6 +18,13 @@ cnvkit_batch_hrd:
 
 fragmentomics_fragment_length_patient_score:
   reference_set: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/vessies_reference_set.txt"
+
+fragmentomics_metrics:
+  canonical_cds_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/UCSC_hg19_canonical_exons.bed"
+  exon_sizes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/UCSC_hg19_exon_sizes.tsv"
+  tfbs_midpoints: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Homo_sapiens_meta_clusters_hg19_midpoint_top5k_sorted.bed.gz"
+  atac_peaks: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/TCGA_ATAC_peak.all.probeMap.simple.hg19.bed"
+  exon_strand_mapping: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/UCSC_hg19_canonical_exons.bed"
   
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5"
