@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.24.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.23.0...v1.24.0) (2026-04-07)
+
+
+### Features
+
+* added profiles with configs for NovaseqX ([558d227](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/558d227de41fe13c6ff0076e46471f8ddc4bea0b))
+* added profiles with configs for NovaseqX ([362f0a4](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/362f0a4670e2ebc834b7f11a8c9cb12e2c754615))
+
 ## [1.23.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.22.2...v1.23.0) (2026-03-19)
 
 
