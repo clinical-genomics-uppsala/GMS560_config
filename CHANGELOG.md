@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.25.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.24.0...v1.25.0) (2026-04-10)
+
+
+### Features
+
+* use local snakemake_wrapper ([caff71e](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/caff71e81df8beb746fa1d877fd1a0d409179833))
+* use local snakemake_wrapper ([034ce87](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/034ce87309982d8d582b3af2b0cb34c5eeccfdd0))
+
 ## [1.24.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.23.0...v1.24.0) (2026-04-07)
 
 
