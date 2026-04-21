@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.25.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.25.0...v1.25.1) (2026-04-21)
+
+
+### Bug Fixes
+
+* MTC to TYR ([59949fc](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/59949fc0254ca6bbfa49b0cda2a239bc0270dadc))
+* MTC to TYR ([9c1803a](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/9c1803ae0d92c93d359345f7a3c0f7e035cb0cbf))
+
 ## [1.25.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.24.0...v1.25.0) (2026-04-10)
 
 
