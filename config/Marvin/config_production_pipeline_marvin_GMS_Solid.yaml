@@ -17,7 +17,7 @@ reference:
   design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/XXX" # PoN
   design_bed_rna: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.hg38.bed"
   design_intervals_rna: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.hg38.interval_list"
-  skip_chrs:
+  skip_contigs:
     - "chrM"
     - "chr1_KI270706v1_random"
     - "chr1_KI270707v1_random"
