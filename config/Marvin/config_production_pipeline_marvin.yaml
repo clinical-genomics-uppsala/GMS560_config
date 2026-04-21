@@ -138,7 +138,7 @@ hotspot_report:
     GIS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Gist_20260304.csv"
     LUN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Lung_20260223.csv"
     MEL: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Melanom_20260305.csv"
-    MTC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260223.csv"
+    TYR: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260223.csv"
     PIK: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_PIK_20260223.csv"
     VAS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260223.csv"
     
