@@ -12,8 +12,8 @@ reference:
   fasta_rna: "/data/ref_genomes/GRCh38/star_fusion/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa" # Update to newer version?
   dict: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta.dict"
   fai: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta.fai"
-  design_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded.bed" # Missing on Marvin and git
-  design_intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded.interval_list" # Missing on Marvin and git
+  design_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded.bed" # Missing on git
+  design_intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded.interval_list" # Missing on git
   design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/XXX" # PoN
   design_bed_rna: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.hg38.bed"
   design_intervals_rna: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.hg38.interval_list"
@@ -424,14 +424,11 @@ arriba_draw_fusion:
   gtf: "/data/ref_genomes/refGene/hg38.refGene.gtf"
   protein_domains: "/data/ref_data/arriba/arriba_v2.3.0/database/protein_domains_hg38_GRCh38_v2.3.0.gff3"
 
-bcftools_annotate:
-  annotation_db: "/data/ref_genomes/GNOMAD/small_exac_common_3.hg38.vcf.gz" # remove?
-
 bcftools_filter_include_region:
-  exon: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded_exons.bed" # Missing on Marvin and git
+  exon: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded_exons.bed" # Missing on git
 
 bcftools_filter_exclude_region:
-  blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnvkit_germline_blacklist_20240613_hg38.bed" # Needs sdaption needed for GMS-Solid?
+  blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnvkit_germline_blacklist_20240613_hg38.bed" # Needs adaption needed for GMS-Solid?
 
 bcftools_id_snps:
   snps_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/ID_SNPs_hg38.bed"
@@ -451,13 +448,13 @@ call_small_cnv_amplifications:
   regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes_240307_hg38.tsv"
 
 cnv_tsv_report:
-  chrom_arm_size: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/chromosome_arm_size_hg38.tsv" # Missing on Marvin and git
+  chrom_arm_size: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/chromosome_arm_size_hg38.tsv" # Missing on git
 
 cnvkit_batch:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/XXX" # PoN
 
 cnvkit_batch_hrd:
-  normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/XXX" # PoN
+  normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq_27_HRD.cnn" # PoN
 
 ctat_splicing_call:
   ctat_genome_lib_path: "/data/ref_genomes/GRCh38/star_fusion/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/"
@@ -488,7 +485,7 @@ filter_fuseq_wes_umi:
   gtf: "/data/ref_genomes/hg38/refGene/hg38.refGene.gtf"
 
 fuseq_wes:
-  ref_json: "/data/ref_data/fuseq_wes/UCSC_hg38_wes_contigSize3000_bigLen130000_r100.json"
+  ref_json: "/data/ref_data/fuseq_wes/UCSC_hg38_wes_contigSize3000_bigLen130000_r100.json" # Missing on git or figshare
   gtfSqlite: "/data/ref_data/fuseq_wes/UCSC_hg38_wes_contigSize3000_bigLen130000_r100.sqlite"
   fusiondb: "/data/ref_data/fuseq_wes/Mitelman_fusiondb.RData"
   paralogdb: "/data/ref_data/fuseq_wes/ensmbl_paralogs_grch38.RData"
@@ -498,7 +495,7 @@ fusioncatcher:
   genome_path: "/data/ref_data/fusioncatcher/human_v102/human_v102/" # Update to newer version?
 
 gatk_collect_allelic_counts:
-  SNP_interval: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_backbone_GnomAD_sites.fixed.interval_list" # Missing on Marvin and git
+  SNP_interval: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_backbone_GnomAD_sites.fixed.interval_list" # Missing on git
   
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/XXX" # PoN
@@ -559,7 +556,7 @@ msisensor_pro:
 
 msisensor_pro_filter_sites:
   PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/XXX" # PoN
-  msi_sites_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.MSI.bed" # Missing on Marvin and git?
+  msi_sites_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.MSI.bed" # Missing on git?
 
 purecn:
   extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/XXX" # PoN
