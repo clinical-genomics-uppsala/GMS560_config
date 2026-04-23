@@ -556,12 +556,12 @@ msisensor_pro_filter_sites:
   msi_sites_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.MSI.bed" # Missing on git?
 
 purecn:
-  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/XXX" # PoN
-  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/XXX" # PoN
-  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/XXX" # PoN
+  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_hg38.rds" # PoN
+  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_hg38.rds" # PoN
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg38_25000_intervals.txt" # PoN
 
 purecn_coverage:
-  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/XXX" # PoN
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg38_25000_intervals.txt" # PoN
 
 report_fusions:
   annotation_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_fusionpartners_hg38.bed"
@@ -592,8 +592,8 @@ star_fusion:
   extra: "--examine_coding_effect"
 
 svdb_query:
-  db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/all_T_185_svdb_0.8_hg38_20240214.vcf --out_frq Twist_AF --out_occ Twist_OCC"
-  # PoN + all Validation samples
+  db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/novaseq_13_svdb_0.8_hg38.vcf --out_frq Twist_AF --out_occ Twist_OCC"
+  # PoN + all Validation samples T+N
 
 tmb:
   filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt" # Needs adaptation to GMS-Solid?
