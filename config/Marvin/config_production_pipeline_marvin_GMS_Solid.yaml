@@ -9,6 +9,7 @@ reference:
   background: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_novaseq_13_dp500_af015_hg38.tsv" # PoN
   artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_novaseq_13_hg38.tsv" # PoN
   fasta: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta"
+  fasta_2bit: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta.2bit"
   fasta_rna: "/data/ref_genomes/GRCh38/star_fusion/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa" # Update to newer version?
   dict: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta.dict"
   fai: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta.fai"
@@ -431,7 +432,7 @@ bcftools_filter_exclude_region:
   blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnvkit_germline_blacklist_20240613_hg38.bed" # Needs adaption needed for GMS-Solid?
 
 bcftools_id_snps:
-  snps_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/ID_SNPs_hg38.bed" # Missing on git
+  snps_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/ID_SNPs_hg38_GMS-Solid.bed" # Missing on git
 
 bwa_mem:
   amb: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta.amb"
