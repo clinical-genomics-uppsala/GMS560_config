@@ -33,7 +33,7 @@ reference:
 annotate_cnv:
   cnv_amp_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_hg38_240307.bed"
   cnv_loh_genes_validated: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_uppsala_genes_hg38.bed"
-  cnv_loh_genes_all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes_hg38_240618.bed"
+  cnv_loh_genes_all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes_240618_hg38.bed"
 
 arriba:
   assembly: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta"
