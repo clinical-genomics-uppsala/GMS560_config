@@ -133,15 +133,14 @@ hotspot_report:
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260304.csv"
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_ENC_20260302.csv"
     URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_URO_20260223.csv"
-    CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260223.csv"
+    CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260504.csv"
     BRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20260223.csv"
     GIS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Gist_20260304.csv"
     LUN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Lung_20260223.csv"
     MEL: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Melanom_20260305.csv"
     TYR: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260223.csv"
     PIK: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_PIK_20260223.csv"
-    VAS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260223.csv"
-    
+    VAS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260504.csv"
     
 juli_annotate:
   cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
@@ -161,13 +160,10 @@ manta_config_t:
 
 merge_cnv_json:
   annotations:
-    - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed
-    - /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed
+    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed"
+    - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed"
   cytobands: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cytoBand.hg19.txt"
   ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt"
-
-msisensor_pro:
-  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline"
 
 msisensor_pro_filter_sites:
   PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline"
@@ -202,7 +198,6 @@ somalier_ungrouped_extract:
   sites: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/sites.hg19.vcf.gz"
 
 star:
-  container: "docker://hydragenetics/star:2.7.10a"
   genome_index: "/data/ref_data/star/v2.7.10a_hg19/"
   extra: "--quantMode GeneCounts --sjdbGTFfile /data/ref_genomes/hg19/gtf/hg19.refGene.gtf --outSAMtype BAM SortedByCoordinate --chimSegmentMin 10 --chimOutType WithinBAM SoftClip --chimJunctionOverhangMin 10 --chimScoreMin 1 --chimScoreDropMax 30 --chimScoreJunctionNonGTAG 0 --chimScoreSeparation 1 --alignSJstitchMismatchNmax 5 -1 5 5 --chimSegmentReadGapMax 3"
 
