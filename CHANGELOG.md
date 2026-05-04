@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.26.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.25.1...v1.26.0) (2026-05-04)
+
+
+### Features
+
+* miarka profiles for novaseq ([97774e1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/97774e1ebc0e3cc6549452dda1ca407cf9be5a97))
+* miarka profiles for novaseq ([eb80764](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/eb80764d28e3e883670b2ec4848748ebf4be100a))
+
 ## [1.25.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.25.0...v1.25.1) (2026-04-21)
 
 
