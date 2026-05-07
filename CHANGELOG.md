@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.26.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.26.0...v1.26.1) (2026-05-07)
+
+
+### Bug Fixes
+
+* added needed mounts for Miarka ([e5503c3](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e5503c305e3708147bfcb160b98df6d5e20f4ed5))
+* added needed mounts for Miarka ([aa40565](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/aa4056517624e1f3c0746ab7cc28e66b7eda2471))
+
 ## [1.26.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.25.1...v1.26.0) (2026-05-04)
 
 
