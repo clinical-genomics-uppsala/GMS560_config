@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.26.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.26.1...v1.26.2) (2026-05-11)
+
+
+### Bug Fixes
+
+* increase restart times ([52086cf](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/52086cf5b1136564f426e3bd6eb1f76bb31608db))
+* rm --containall flaggan på miarka ([3ac9f7c](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3ac9f7cfd7ab788c7e1cdaf3679135afdb1366f6))
+* rm --containall flaggan på miarka ([c2a9796](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/c2a9796c6fde1ba887b03f820579522b08b31500))
+* rm gres in profile ([00d9fea](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/00d9feafad6437d60cfa18cdebae1678528c7a7f))
+* rm gres in profile ([5170abd](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/5170abd7f9e81640d1793265a06d051a5dde48f6))
+
 ## [1.26.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.26.0...v1.26.1) (2026-05-07)
 
 
