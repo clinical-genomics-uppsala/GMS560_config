@@ -1,4 +1,4 @@
-jobs: 400
+jobs: 200
 keep-going: True
 restart-times: 1
 rerun-incomplete: True
