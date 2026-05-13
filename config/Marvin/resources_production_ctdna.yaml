@@ -36,6 +36,10 @@ fgbio_call_and_filter_consensus_reads:
 fgbio_group_reads_by_umi:
   time: "24:00:00"
 
+fragmentomics_metrics_get_bed_from_bam:
+  threads: 6
+  mem_mb: 30720
+
 vep:
   threads: 5
   time: "24:00:00"
