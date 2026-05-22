@@ -38,12 +38,12 @@ annotate_cnv:
 arriba:
   assembly: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta"
   blacklist: "/data/ref_data/arriba/arriba_v2.3.0/database/blacklist_hg38_GRCh38_v2.3.0.tsv.gz"
-  gtf: "/data/ref_genomes/refGene/hg38.refGene.gtf"
+  gtf: "/data/ref_genomes/GRCh38/gtf/hg38.refGene.gtf"
   extra: "-p /data/ref_data/arriba/arriba_v2.3.0/database/protein_domains_hg38_GRCh38_v2.3.0.gff3 -k /data/ref_data/arriba/arriba_v2.3.0/database/known_fusions_hg38_GRCh38_v2.3.0.tsv.gz" # New module version to work properly
 
 arriba_draw_fusion:
   cytobands: "/data/ref_data/arriba/arriba_v2.3.0/database/cytobands_hg38_GRCh38_v2.3.0.tsv"
-  gtf: "/data/ref_genomes/refGene/hg38.refGene.gtf"
+  gtf: "/data/ref_genomes/GRCh38/gtf/hg38.refGene.gtf"
   protein_domains: "/data/ref_data/arriba/arriba_v2.3.0/database/protein_domains_hg38_GRCh38_v2.3.0.gff3"
 
 bcftools_filter_include_region:
