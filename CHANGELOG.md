@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.27.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.26.2...v1.27.0) (2026-06-09)
+
+
+### Features
+
+* added GMSCNS ([ed96ef4](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/ed96ef48f2a70e5204c1f6361bb96bc6038e3211))
+* added GMSCNS ([d8246dc](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d8246dc62789a735f68daab4be7c7b9b57cc664a))
+* fragmentomics_mesures ([32eb778](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/32eb778d756ff6ac601456a9f8284076508e58a6))
+
 ## [1.26.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.26.1...v1.26.2) (2026-05-11)
 
 
