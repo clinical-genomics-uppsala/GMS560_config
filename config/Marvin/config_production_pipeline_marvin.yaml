@@ -125,13 +125,14 @@ gene_fuse:
 
 hotspot_annotation:
   chr_translation_file: "config/reports/hotspot_report.chr.translation.hg19"
-  hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260304.csv"
+  hotspots: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260609.csv"
 
 hotspot_report:
   chr_translation_file: "config/reports/hotspot_report.chr.translation.hg19"
-  hotspot_mutations: 
-    all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260304.csv"
-    ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_ENC_20260302.csv"
+  hotspot_mutations:
+    all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260609.csv"
+    CNS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_CNS_20260605.csv"
+    ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_ENC_20260609.csv"
     URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_URO_20260223.csv"
     CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260504.csv"
     BRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20260223.csv"
