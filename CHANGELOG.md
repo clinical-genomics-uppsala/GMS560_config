@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.28.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.27.0...v1.28.0) (2026-06-12)
+
+
+### Features
+
+* added chip hotspots and limited hemato positions ([b748436](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/b748436c8e3c77badeec1ab334d67661f2104cd5))
+* Chip ([bc14b8f](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/bc14b8ff9bd2175eecc503becbf72f689c993b35))
+* new GMS560 and updated VAS and all ([314c819](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/314c8193e575ea92f150bc00ae0dd1400e29fdeb))
+* new GMS560 and updated VAS and all ([862a704](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/862a70456fa0fc64e00165c2287476228d0343f7))
+
 ## [1.27.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.26.2...v1.27.0) (2026-06-09)
 
 
