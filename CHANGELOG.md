@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.28.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.0...v1.28.1) (2026-07-07)
+
+
+### Bug Fixes
+
+* corrected CNS file ([459bb3e](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/459bb3e1ac2121dbc47faf14e436851e96b99a9f))
+* corrected CNS file ([496d81b](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/496d81b6a9ae87459886a71c1352fbb7a029e694))
+* profile update to handle missing drmaa support ([c258c0a](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/c258c0aa48eeee790cd16966e3af9f9f0b9adb47))
+* profile update to handle missing drmaa support ([561192a](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/561192aaebbf3cc9709f0b94754428476eee7653))
+
 ## [1.28.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.27.0...v1.28.0) (2026-06-12)
 
 
