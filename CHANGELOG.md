@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.28.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.1...v1.28.2) (2026-07-08)
+
+
+### Bug Fixes
+
+* updated CNS cov&mut files ([b7b47c8](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/b7b47c890072384c177fcc04bb1abf448da40686))
+* updated CNS cov&mut files ([5127165](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/5127165f65f74244f5c7d41e520b42b469b5372f))
+
 ## [1.28.1](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.0...v1.28.1) (2026-07-07)
 
 
