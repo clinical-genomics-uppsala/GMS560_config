@@ -141,7 +141,9 @@ hotspot_report:
   chr_translation_file: "config/reports/hotspot_report.chr.translation.hg38"
   hotspot_mutations: 
     all: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260304_hg38.csv"
+    CNS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_CNS_20260708_hg38.csv"
     ENC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_ENC_20260302_hg38.csv"
+    GMS560: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_GMS560_20260708_hg38.csv"
     URO: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_URO_20260223_hg38.csv"
     CRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260223_hg38.csv"
     BRC: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20260223_hg38.csv"
