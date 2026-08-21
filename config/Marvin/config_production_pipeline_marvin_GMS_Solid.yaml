@@ -147,8 +147,12 @@ hotspot_report:
     TYR: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260223_hg38.csv"
     PIK: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_PIK_20260223_hg38.csv"
     VAS: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260223_hg38.csv"
-    
-    
+
+ichorcna_offtarget_run:
+  gc_wig: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/ichorcna_offtarget/gc_hg38_100kb.wig"
+  map_wig: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/ichorcna_offtarget/map_hg38_100kb.wig"
+  centromere: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/ichorcna_offtarget/GRCh38.centromere.txt"
+
 juli_annotate:
   cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
   pfam: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/Pfam-A.full.human"
