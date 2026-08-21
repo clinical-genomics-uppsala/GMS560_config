@@ -47,7 +47,7 @@ bcftools_filter_include_region:
   exon: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded_exons.bed"
 
 bcftools_filter_exclude_region:
-  blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnvkit_germline_blacklist_20240613_hg38.bed" # Needs adaption needed for GMS-Solid?
+  blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnvkit_germline_blacklist_20260813_hg38_GMS-Solid.bed"
 
 bcftools_id_snps:
   snps_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/ID_SNPs_hg38_GMS-Solid.bed"
@@ -79,7 +79,7 @@ ctat_splicing_call:
   ctat_genome_lib_path: "/data/ref_genomes/GRCh38/star_fusion/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/"
 
 ctat_splicing_filter:
-  filtering_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/filter_ctat_splicing.tsv" # Needs adaptions for GMS-Solid?
+  filtering_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/filter_ctat_splicing.tsv"
 
 estimate_ctdna_fraction:
   problematic_regions_beds:
@@ -92,9 +92,9 @@ exon_skipping:
   design_bed: "/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.hg38.bed"
 
 filter_fuseq_wes:
-  gene_fusion_black_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/false_positive_fusion_pairs.txt" # Needs adaptions for GMS-Solid?
+  gene_fusion_black_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/false_positive_fusion_pairs.txt" # Needs adaptions for GMS-Solid? Ok in first val.
   gene_white_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_gene_white_list.txt" # Needs adaptions for GMS-Solid?
-  transcript_black_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_transcript_black_list.txt" # Needs adaptions for GMS-Solid?
+  transcript_black_list: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_transcript_black_list.txt" # Needs adaptions for GMS-Solid? Ok in first val.
   gtf: "/data/ref_genomes/GRCh38/gtf/hg38.refGene.gtf"
 
 filter_fuseq_wes_umi:
@@ -111,7 +111,7 @@ fuseq_wes:
   params: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_params.txt"
 
 fusioncatcher:
-  genome_path: "/data/ref_data/fusioncatcher/human_v102/human_v102/" # Update to newer version?
+  genome_path: "/data/ref_data/fusioncatcher/human_v102/human_v102/"
 
 gatk_collect_allelic_counts:
   SNP_interval: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_backbone_GnomAD_sites.fixed.interval_list"
@@ -216,14 +216,12 @@ svdb_query:
   db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/normal_novaseqX_GMS-Solid_Uppsala_8_hg38.vcf --out_frq Twist_AF --out_occ Twist_OCC" #Use Normal + all validation samples?
 
 tmb:
-  filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt" # Needs adaptation to GMS-Solid?
+  filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
 
 vep:
   vep_cache:  "/data/ref_genomes/VEP/"
-  extra: " --assembly GRCh38 --check_existing --pick --sift b --polyphen b --ccds --uniprot --hgvs --symbol --numbers --domains --regulatory --canonical --protein --biotype --uniprot --tsl --appris --gene_phenotype --af --af_1kg --af_gnomad --max_af --pubmed --variant_class "
-  # Update to 113?
+  extra: " --assembly GRCh38 --check_existing --pick --sift b --polyphen b --ccds --uniprot --hgvs --symbol --numbers --domains --regulatory --canonical --protein --biotype --tsl --mane --gene_phenotype --af --af_1kg --af_gnomad --af_gnomadg --max_af --pubmed --variant_class "
 
 vep_wo_pick:
   vep_cache:  "/data/ref_genomes/VEP/"
-  extra: " --assembly GRCh38 --check_existing --sift b --polyphen b --ccds --uniprot --hgvs --symbol --numbers --domains --regulatory --canonical --protein --biotype --uniprot --tsl --appris --gene_phenotype --af --af_1kg --af_gnomad --max_af --pubmed --variant_class "
-  # Update to 113?
+  extra: " --assembly GRCh38 --check_existing --sift b --polyphen b --ccds --uniprot --hgvs --symbol --numbers --domains --regulatory --canonical --protein --biotype --tsl --mane --gene_phenotype --af --af_1kg --af_gnomad --af_gnomadg --max_af --pubmed --variant_class "
