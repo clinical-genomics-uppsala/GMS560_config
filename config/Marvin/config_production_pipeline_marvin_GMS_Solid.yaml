@@ -152,6 +152,7 @@ ichorcna_offtarget_run:
   gc_wig: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/ichorcna_offtarget/gc_hg38_100kb.wig"
   map_wig: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/ichorcna_offtarget/map_hg38_100kb.wig"
   centromere: "/data/ref_genomes/GRCh38/GRCh38-GIABv3/ichorcna_offtarget/GRCh38.centromere.txt"
+  normal_panel: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_novaseqX_GMS-Solid_Uppsala_8_hg38.rds"
 
 juli_annotate:
   cosmic: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv"
