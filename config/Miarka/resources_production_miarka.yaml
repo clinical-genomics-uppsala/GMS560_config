@@ -106,6 +106,12 @@ optitype:
 vardict:
   time: "48:00:00"
 
+samtools_sort:
+  threads: 2
+  time: "4:00:00"
+  mem_mb: 12288
+  mem_per_cpu: 6144
+
 star:
   threads: 8
   time: "8:00:00"
