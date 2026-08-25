@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.28.3](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.2...v1.28.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* minor path update on miarka ([e24bbd0](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e24bbd0905a34b005a9998df6ed8c44c7a87ddc3))
+* minor path update on miarka ([7e7ca7f](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/7e7ca7f3fef439fbd204f063e066a5056264f5bb))
+
 ## [1.28.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.1...v1.28.2) (2026-07-08)
 
 
