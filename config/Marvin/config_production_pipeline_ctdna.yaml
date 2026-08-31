@@ -29,6 +29,9 @@ fragmentomics_metrics:
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5"
 
+ichorcna_offtarget_run:
+  normal_panel: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_cfDNA_nextseq2000_24.rds"
+
 jumble_run:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_cfDNA_nextseq2000_24.RDS"
 
