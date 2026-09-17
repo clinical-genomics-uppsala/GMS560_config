@@ -9,6 +9,9 @@ cnvkit_batch:
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_novaseqX_24_updated.hdf5"
 
+ichorcna_offtarget_run:
+  normal_panel: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_novaseqX_24.rds"
+
 jumble_run:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_24_updated.RDS"
 
