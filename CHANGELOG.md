@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.29.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.3...v1.29.0) (2026-09-18)
+
+
+### Features
+
+* added ichorCNA config ([fe662d2](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/fe662d2f01e98d280c7082612f057429ee660df3))
+* added ichorCNA config ([d3501b1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d3501b14fc1b1421fc6c955d5891d75127b938a9))
+* ctDNA miarka ([e63e368](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e63e368fdffa78f51ec7b66419927e64f4a82ccf))
+
 ## [1.28.3](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.2...v1.28.3) (2026-08-25)
 
 
