@@ -108,6 +108,12 @@ gatk_collect_allelic_counts:
 gatk_denoise_read_counts:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_xleap_ns2000_22.hdf5"
 
+ichorcna_offtarget_run:
+  # No FFPE PoN built for NextSeq2000 yet - reuse the NovaSeqX FFPE PoN as a stand-in so
+  # ichorCNA has a normal panel instead of failing/crashing without one. Replace with a
+  # NextSeq2000-specific PoN once built.
+  normal_panel: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_novaseqX_24.rds"
+
 gatk_get_pileup_summaries:
   sites: "/data/ref_genomes/GNOMAD/small_exac_common_3.hg19.vcf.gz"
   variants: "/data/ref_genomes/GNOMAD/small_exac_common_3.hg19.vcf.gz"
