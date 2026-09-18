@@ -5,7 +5,7 @@ rerun-incomplete: True
 use-singularity: True
 max-jobs-per-second: 100
 max-status-checks-per-second: 100
-configfiles: ["config/config.yaml", "config/config.data.hg19.yaml", "GMS560_config/config/Miarka/config_production_pipeline_miarka.yaml", "GMS560_config/config/Miarka/config_production_pipeline_ctdna_miarka.yaml", "config/config.data.ctdna.hg19.yaml"]
+configfiles: ["config/config.yaml", "GMS560_config/config/Miarka/config_production_pipeline_miarka.yaml", "GMS560_config/config/Miarka/config_production_pipeline_ctdna_miarka.yaml", "config/config.data.ctdna.hg19.yaml"]
 slurm: True
 default-resources:
   - slurm_partition="core"
