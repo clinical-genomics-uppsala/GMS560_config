@@ -1,0 +1,872 @@
+# Samlad källista (D14): allt pipelinen behöver enligt Marvins produktionsconfig,
+# med Marvin-sökväg (url), plats i den gemensamma strukturen (path) och md5.
+# 0 poster har checksum: null - kör tools/fill_checksums.py på Marvin.
+# Genererad av tools/build_reference_tree.py; checkas in som
+# config/references/sources/marvin.yaml på pipelinens harmonize-branch.
+annotate_cnv:
+  cnv_amp_genes:
+    checksum: daa4bd789c9beb84bf1c02e125dd1fd6
+    path: pipelines/gms560/capture_kits/cnv_amp_genes_240307.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amp_genes_240307.bed
+  cnv_loh_genes:
+    checksum: 38d3acbe99bb9626ccc0ab1815b6e35b
+    path: pipelines/gms560/capture_kits/cnv_loh_genes.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes.bed
+  cnv_loh_genes_all:
+    checksum: de777ddcbee346f5a77e420ff88168fa
+    path: pipelines/gms560/capture_kits/cnv_loh_genes_240618.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_genes_240618.bed
+  cnv_loh_genes_validated:
+    checksum: 2f72bf8e05124335ffc2adf860cd13c8
+    path: pipelines/gms560/capture_kits/cnv_loh_uppsala_genes.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_loh_uppsala_genes.bed
+arriba:
+  data_folder:
+    content_checksum:
+      blacklist_hg19_hs37d5_GRCh37_v2.3.0.tsv.gz: ca7b0b42ec2498814a5c408a5477e052
+      cytobands_hg19_hs37d5_GRCh37_v2.3.0.tsv: 9333eaa96c56fa22624ab432b8391b2b
+      known_fusions_hg19_hs37d5_GRCh37_v2.3.0.tsv.gz: 2f063a0065c1c88d86c859b924d8d590
+      protein_domains_hg19_hs37d5_GRCh37_v2.3.0.gff3: b5bc63c70c9eb08c71528ee8b0186901
+    path: hg19/annotation/arriba
+    type: folder
+    url: file:/data/ref_data/arriba/arriba_v2.3.0/database
+bcftools_annotate:
+  annotation_db:
+    checksum: 1eb85e09195f0092e389510b40765f5e
+    path: hg19/annotation/gnomad/small_exac_common_3.hg19.vcf.gz
+    type: file
+    url: file:/data/ref_genomes/GNOMAD/small_exac_common_3.hg19.vcf.gz
+bcftools_filter_exclude_region:
+  blacklist:
+    checksum: 0e6ad6718e87594732814608a595888b
+    path: pipelines/gms560/capture_kits/cnvkit_germline_blacklist_20240613.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnvkit_germline_blacklist_20240613.bed
+bcftools_filter_include_region:
+  exon:
+    checksum: c85f3369444cd6f27a397eef0a24fff9
+    path: pipelines/gms560/capture_kits/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.MUC6_31_rm.exon_only.reannotated.230222.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.MUC6_31_rm.exon_only.reannotated.230222.bed
+bcftools_id_snps:
+  snps_bed:
+    checksum: ab9b7084d599606bb52142d26158f5e1
+    path: pipelines/gms560/capture_kits/ID_SNPs.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/ID_SNPs.bed
+bwa:
+  amb:
+    checksum: b1998db7fbda653133fa278cd9b1e61b
+    path: unclassified/gms560/hg19.with.mt.amb
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.amb
+  ann:
+    checksum: 745e9a6afe1951cc54e8cc1b6c1429ff
+    path: unclassified/gms560/hg19.with.mt.ann
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.ann
+  bwt:
+    checksum: da1a091388a038c22e1d5c555db00a8b
+    path: unclassified/gms560/hg19.with.mt.bwt
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.bwt
+  pac:
+    checksum: 90c98011896647750981f091b90bf2af
+    path: unclassified/gms560/hg19.with.mt.pac
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.pac
+  sa:
+    checksum: 9acd60cb19c1dd8da83283348670c744
+    path: unclassified/gms560/hg19.with.mt.sa
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.sa
+call_small_cnv_amplifications:
+  regions_file:
+    checksum: d276c7848ed8fecc034f76bfd815e537
+    path: pipelines/gms560/misc/cnv_amplification_genes_240307.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_amplification_genes_240307.tsv
+call_small_cnv_deletions:
+  blacklist:
+    checksum: 019763e1b79682a56074a3f53a73d149
+    path: pipelines/gms560/misc/small_deletions_caller_blacklist.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/small_deletions_caller_blacklist.tsv
+  regions_file:
+    checksum: e94adedc10b49b5a5a990ee0f938239d
+    path: pipelines/gms560/misc/cnv_deletion_genes_240618.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_deletion_genes_240618.tsv
+chip_annotation:
+  chip_genes_file:
+    checksum: null
+    path: pipelines/gms560/gene_panels/chip_genes.yaml
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/chip/chip_genes.yaml
+  chip_hotspot_vcf:
+    checksum: null
+    path: pipelines/gms560/gene_panels/chip_hotspot_hg19_20260611.vcf.gz
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/chip/chip_hotspot_hg19_20260611.vcf.gz
+  chip_hotspot_vcf_tbi:
+    checksum: null
+    path: pipelines/gms560/gene_panels/chip_hotspot_hg19_20260611.vcf.gz.tbi
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/chip/chip_hotspot_hg19_20260611.vcf.gz.tbi
+  cosmic_hemato_vcf:
+    checksum: null
+    path: hg19/annotation/cosmic/cosmic97_hemato_hg19_20260611.vcf.gz
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/chip/cosmic97_hemato_hg19_20260611.vcf.gz
+  cosmic_hemato_vcf_tbi:
+    checksum: null
+    path: hg19/annotation/cosmic/cosmic97_hemato_hg19_20260611.vcf.gz.tbi
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/chip/cosmic97_hemato_hg19_20260611.vcf.gz.tbi
+cnv_tsv_report:
+  chrom_arm_size:
+    checksum: 3b0242bea88285383dbb42aec1f252d0
+    path: hg19/annotation/other/chromosome_arm_size.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/chromosome_arm_size.tsv
+cnvkit:
+  normal_reference:
+    checksum: a2b846a0e94e59faca2102a576d76fb3
+    path: pipelines/gms560/pon/cnvkit_xleap_ns2000_22.cnn
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_xleap_ns2000_22.cnn
+  normal_reference_hrd:
+    checksum: 407bff13de54f0d4a02f2abd8daaf578
+    path: pipelines/gms560/pon/cnvkit_nextseq2000_23_HRD.cnn
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn
+cnvkit_batch:
+  normal_reference_ctdna:
+    checksum: ebb8bfd2fba4f8de5e4c945e7e686f95
+    path: pipelines/gms560/pon/cnvkit_cfDNA_nextseq2000_24.cnn
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_cfDNA_nextseq2000_24.cnn
+  normal_reference_novaseqX:
+    checksum: de50b7d3a00796e6115c7c6bac268659
+    path: pipelines/gms560/pon/cnvkit_novaseqX_24_updated.cnn
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_novaseqX_24_updated.cnn
+ctat_splicing_filter:
+  filtering-file:
+    checksum: 9effc6913b16056753ba54a36b26ebcc
+    path: hg19/annotation/ctat/filter_ctat_splicing.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/filter_ctat_splicing.tsv
+estimate_ctdna_fraction:
+  bed_file1:
+    checksum: 46ebd877c3eee497feaa2394a6d9576e
+    path: pipelines/gms560/capture_kits/ENCODE_problematic_regions.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/ENCODE_problematic_regions.bed
+  bed_file2:
+    checksum: 0e85c1e639e6ca0083fbe9348af645ce
+    path: pipelines/gms560/capture_kits/segmental_dup_regions.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/segmental_dup_regions.bed
+  bed_file4:
+    checksum: 2dc84d77ab58b16fd429fea271cc2d75
+    path: pipelines/gms560/capture_kits/simple_repeat_regions.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/simple_repeat_regions.bed
+  bed_file5:
+    checksum: d150be91d8cb15199a04cf99edfbf3f5
+    path: pipelines/gms560/capture_kits/windowmaskSdust_repetetive_regions.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/windowmaskSdust_repetetive_regions.bed
+exon_skipping:
+  design_bed:
+    checksum: 7fe64299477aa4b6a5f5783cce9fa30f
+    path: pipelines/gms560/capture_kits/Twist_RNA_Design5.annotated.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.bed
+filter_fuseq_wes:
+  gene_fusion_black_list:
+    checksum: 21f8b965c1404f6ec4088d3816421809
+    path: pipelines/gms560/misc/false_positive_fusion_pairs.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/false_positive_fusion_pairs.txt
+  gene_white_list:
+    checksum: d762e65cc9d9d01d022db7de7c31cc68
+    path: pipelines/gms560/misc/fuseq_wes_gene_white_list.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_gene_white_list.txt
+  gtf:
+    checksum: 57b812f0595dc8a446ca81fe568e142d
+    path: hg19/annotation/arriba/hg19.refGene.gtf
+    type: file
+    url: file:/data/ref_genomes/hg19/gtf/hg19.refGene.gtf
+  transcript_black_list:
+    checksum: 586ad13ce609fdf5390d299cbbaae183
+    path: pipelines/gms560/misc/fuseq_wes_transcript_black_list.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_wes_transcript_black_list.txt
+fragmentomics_fragment_length_patient_score:
+  checksum: 4f00f792f7c38afad58a90f74af559cb
+  path: pipelines/gms560/misc/vessies_reference_set.txt
+  type: file
+  url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/vessies_reference_set.txt
+fragmentomics_metrics:
+  atac_peaks:
+    checksum: d07d7655a77d93d89c3edac5af2495f0
+    path: pipelines/gms560/capture_kits/TCGA_ATAC_peak.all.probeMap.simple.hg19.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fragmentomics/TCGA_ATAC_peak.all.probeMap.simple.hg19.bed
+  canonical_cds_bed:
+    checksum: 37191857ab2edc9d1a9823edecd77bb0
+    path: pipelines/gms560/capture_kits/GMS560_specific_cds.hg19.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fragmentomics/GMS560_specific_cds.hg19.bed
+  exon_sizes:
+    checksum: ca2614de8d3ed56da9cf1f5c200888e5
+    path: hg19/annotation/other/UCSC_hg19_exon_sizes.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fragmentomics/UCSC_hg19_exon_sizes.tsv
+  tfbs_midpoints:
+    checksum: c0cc07d21d0443a42393a34c58726507
+    path: pipelines/gms560/capture_kits/Homo_sapiens_meta_clusters_hg19_midpoint_top5k_sorted.bed.gz
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fragmentomics/Homo_sapiens_meta_clusters_hg19_midpoint_top5k_sorted.bed.gz
+  tfbs_midpoints_tbi:
+    checksum: 3ef123fae5a4122fd3ccd685c83b1715
+    path: pipelines/gms560/capture_kits/Homo_sapiens_meta_clusters_hg19_midpoint_top5k_sorted.bed.gz.tbi
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fragmentomics/Homo_sapiens_meta_clusters_hg19_midpoint_top5k_sorted.bed.gz.tbi
+fuseq_wes:
+  params:
+    checksum: d2e6d449027c49e24f026261082fa5bb
+    path: pipelines/gms560/misc/fuseq_params.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fuseq_wes/fuseq_params.txt
+  reference:
+    content_checksum:
+      Mitelman_fusiondb.RData: e4fbf81b5b02b9fe201161d324405822
+      UCSC_hg19_wes_contigSize3000_bigLen130000_r100.json: 30d56f2305d33734e0bff3eb888b12ba
+      UCSC_hg19_wes_contigSize3000_bigLen130000_r100.sqlite: 92357e04c72c06ab39b7cff59d24a852
+      ensmbl_paralogs_grch37.RData: af95895660e6b09ca07ffcedcc6c7ef1
+    path: pipelines/gms560/pon
+    type: folder
+    url: file:/data/ref_data/fuseq_wes
+fusioncatcher:
+  genome_path:
+    content_checksum:
+      human_v102/1000genomes.txt: 8f3e4cd51f5dc4d8ba6e05175370c6c3
+      human_v102/18cancers.txt: d67a87eba9a2db50c80646312ca04e75
+      human_v102/7skrnas.txt: 7ce8789959b6f6fc57531928bb065a10
+      human_v102/adjacent_genes.txt: 2a41262d1a28109ec95c5da30f31b5f1
+      human_v102/banned.txt: 4e17fd595314c65bfcf517d54c4db435
+      human_v102/banned_seq.fa: ea7f443947f6f9f09d16763b159a3ebc
+      human_v102/biotypes.txt: c41bedcbfb6ff273ce170a99e1e217fc
+      human_v102/biotypes_header.txt: f41dfd72da6abb2191d00e37f6e63ed3
+      human_v102/bodymap2.txt: e050907b81c8ad04ec3578cfebce9a43
+      human_v102/cacg.txt: 6b642c538dca74f9a8e52fb0e853af46
+      human_v102/cancer_genes.txt: e45562e9e0ffa6dad0b7bba0c5adc961
+      human_v102/ccle.txt: 9b221f45420fd407e63d8a18473e68f1
+      human_v102/ccle2.txt: 3d422a5153ffe037b5b77a4af93766c0
+      human_v102/ccle3.txt: a1fce78904317b37801e716cc60b29d8
+      human_v102/cgp.txt: 95381706b5bd9af65571d8e2f90d6fe2
+      human_v102/chimerdb2.txt: 72e2a8d3d27a14a335ac5b9e99f461ec
+      human_v102/chimerdb4kb.txt: 0f763d7e5c7736c072d3a009c9811684
+      human_v102/chimerdb4pub.txt: 9ce8202c20a8c2b40902b9c49f2b40d6
+      human_v102/chimerdb4seq.txt: 49ce7626ffe5b6d73c89e486250c89ba
+      human_v102/chromosomes_lengths.txt: 5bb25def58f5ab73e05711b51aee01df
+      human_v102/conjoing.txt: 287dc4c0b67ac2ef44a43785fa174cb1
+      human_v102/cortex.txt: 8a3d7549eec69a3e7dbb159a3cc8e2f4
+      human_v102/cosmic.txt: dabb92838937dd04ccb6246929c74e28
+      human_v102/custom_genes.bed: 2145d166a1e90926a31330878d1ee3c4
+      human_v102/custom_genes.txt: f34fad75a9844c7e64047c8ec6fa3262
+      human_v102/custom_genes_mark.txt: 6a1a733a552c60f616c746227f288521
+      human_v102/custom_transcripts_mark.txt: 0d168c62fd8d2a18dd2ab3a35a48c64d
+      human_v102/descriptions.txt: 4e14c7803353ecd0cbc0e109b64f91b7
+      human_v102/descriptions_header.txt: bd3e3ccad7d66047029c7cd12a04df13
+      human_v102/dgd.txt: 7b081aa70fc08f8d6e4f74d42e9d1a1c
+      human_v102/enlarge.txt: 59677d319495aea69fa8af528626ca99
+      human_v102/enlarged_genes.bed: ded286c28688a55c2feaa3d40633b6d8
+      human_v102/ensembl_fully_overlapping_genes.txt: 9eaf30f4ef49a0beae3ef45ddfd917fb
+      human_v102/ensembl_overlapping_genes.txt: ca6ecbfcbedc02b8e64de197ca97ae75
+      human_v102/ensembl_partially_overlapping_genes.txt: 742d21d617be798955483eb9de025e88
+      human_v102/ensembl_removed-overlapping-genes.txt: cd0d034f70c8455b04fca32e6be10243
+      human_v102/ensembl_same_strand_overlapping_genes.txt: 82946d973acf0ced9056f84eaa6460a2
+      human_v102/exons.fa: cdfa70e1d09ac6f1178b75b7c00a217b
+      human_v102/exons.txt: 12e240fdf789327369c9a1ea204840b8
+      human_v102/exons_header.txt: 5bdb1d9e7484f7f9ac4666545ad41088
+      human_v102/exons_original.txt: 833c46e3989fc939352ddc27a0c32449
+      human_v102/exons_removed.txt: b1761c5f09839ffe66c7729fa848a93b
+      human_v102/final-list_candidate-fusion-genes.caption.md.txt: d28d0d7ce7776474b612c1cdc4f7a4f6
+      human_v102/gap_fusions.txt: 7784df667a42893e25a814919ce556ec
+      human_v102/gencode_fully_overlapping_genes.txt: 63d088b2e6a351d66f604385dc047334
+      human_v102/gencode_genes.txt: c00460d3443da08e982cd2da26812163
+      human_v102/gencode_genes_header.txt: 9aa055ae6c632068ddc0f4c60ad9c82f
+      human_v102/gencode_partially_overlapping_genes.txt: 0514a2fdb27bf1187a29dda2b85a58c4
+      human_v102/gencode_same_strand_overlapping_genes.txt: 57ab9547c3c159cc6bee716d1ee8d907
+      human_v102/genes.fa: f9d7d9157cd265caf0898f2fbd9cc0dd
+      human_v102/genes.txt: 009cf9e1e7866e058bad3226b05b2198
+      human_v102/genes_backup.txt: 3329bfb126c404555b6241325ac22cea
+      human_v102/genes_header.txt: 4f99b6fd9b005fdbbe63a0227a362994
+      human_v102/genes_original.txt: fe0ae7513b4b3248732051970973da31
+      human_v102/genes_removed.txt: b96e1d1bbbf22f5a813d1810142da2c8
+      human_v102/genes_symbols.txt: e8ad7c0412b214ba278088a8b5633422
+      human_v102/genes_with_no_proteins.txt: 61f4d1d7597a3fff636343c5fbfa800b
+      human_v102/genome_index2/index.1.bt2: 79469986007db8199cc1940eab4ffcd5
+      human_v102/genome_index2/index.2.bt2: 3f3589cfe5517b827a8bff90fbd050ca
+      human_v102/genome_index2/index.3.bt2: 0c6e606f710d803b13e0547ba57e50bc
+      human_v102/genome_index2/index.4.bt2: c206b7d45233c0526d9370670e42ee2d
+      human_v102/genome_index2/index.rev.1.bt2: 2122cc313b14875978258315a0081884
+      human_v102/genome_index2/index.rev.2.bt2: c98a3cf46f769e862c05d980e2b27044
+      human_v102/genome_information.txt: 1830f83de9435faf22da764afaa03f89
+      human_v102/gliomas.txt: 223e41ec1d12f89c51b35f39b9921753
+      human_v102/gtex.txt: 25a87629fdd56ede3828a6c5db34ba29
+      human_v102/gtex_removed.txt: a0411c7ce25564a1925e3836dde6515c
+      human_v102/healthy.txt: d34cdff236d86f786f441a635084aaa1
+      human_v102/hg38ToHg19.over.chain.gz: ff3031d93792f4cbb86af44055efd903
+      human_v102/hla.txt: 65e2101058fabdba85acc816f572fc93
+      human_v102/hla2.fa: 9072218d1e20b0923d7163f4ba42803c
+      human_v102/hla2.txt: a40c718f376a30c8a7ae2cfe623e2433
+      human_v102/hpa.txt: 6759c87efb14935820ce445fccb1dc21
+      human_v102/ig_loci.txt: 66c39e407499b1993723e6100295cfb9
+      human_v102/known.txt: d404bff212c3bba70e647073e37212fe
+      human_v102/known_genes.txt: 145cb5600c02144c49ba39cd2f0f293e
+      human_v102/lncrnas.txt: 550da13d7ef07e1ed9b5de49b8929e2b
+      human_v102/metastasis.txt: bc4d8347388c112e796bb1725fc6fb7c
+      human_v102/metazoa.txt: c4d1c27db745e57eb12531e152a471ba
+      human_v102/mirnas.txt: c5c826163d62d4f9c22a0e821d581155
+      human_v102/mitelman.txt: 0d18ea2267c14b267f1c17954af8268e
+      human_v102/mt.txt: e57ade31eca63b2e3342d18c3b0d6a18
+      human_v102/non-cancer_tissues.txt: 00f2b499df9e240129e9eea13f25e452
+      human_v102/non-tumor_cells.txt: 91b50627ee2535d89790a32f73d81f6e
+      human_v102/oesophagus.txt: 0fbdfc959000f38f2d23975e5899f6c4
+      human_v102/oncogenes.txt: e7afe4fc58df0819a7e54fe8922b1e29
+      human_v102/oncogenes_more.txt: 2de05dd7a5fc90abe7a8fe21a96d9aa2
+      human_v102/oncokb.txt: 9ab9283758f4b67c0135386117dc535a
+      human_v102/organism.gtf: 7959acb2a38d193a3b61a1bda7fb3807
+      human_v102/organism.txt: f5d1fac6c2297a220ae332de75821052
+      human_v102/pairs_pseudogenes.txt: 31e7dbcb418d92837705c1c1fabe7740
+      human_v102/pancreases.txt: ad6ed32789e915f5f6e1eb5ca096e125
+      human_v102/paralogs.txt: 5f014919d2ad002ce79a2adde5fa7f3a
+      human_v102/paralogs_header.txt: 5c9b9825313c54b393cf49f49dbd88ea
+      human_v102/pcawg.txt: a648b8d9ee2fd39b0e3a0455a24dd25c
+      human_v102/prostate_cancer.txt: f776e3f04be093c452fc65169b281af0
+      human_v102/pseudogenes.bed: 1df1d8bd1cb3516aa4c9e017455e4b67
+      human_v102/pseudogenes.txt: ada09be7025dcd434f904f9ecc3ed005
+      human_v102/readthroughs.txt: c99203b70603eadac7c8b59f02fb96eb
+      human_v102/refseq_fully_overlapping_genes.txt: af8da3a6db388c208b9178a960c0f81b
+      human_v102/refseq_genes.txt: d1a6e0761b62fa7b8cc03f425cbdb3fc
+      human_v102/refseq_genes_header.txt: 9aa055ae6c632068ddc0f4c60ad9c82f
+      human_v102/refseq_ids.txt: 5287323b40ebe9e14a458cc9478e7a01
+      human_v102/refseq_ids_header.txt: 96481db766987b0eaf3df51325e4e29a
+      human_v102/refseq_partially_overlapping_genes.txt: ad7eaefc9e2e01781496fcf1fd31fbdc
+      human_v102/refseq_same_strand_overlapping_genes.txt: ea1d9c88fab3b22068f93f3402358694
+      human_v102/removed_features.txt: 729edca47a8763d227b537c850e48ae6
+      human_v102/ribosomal_proteins.txt: 2997b8225f8e621983fe200953e0eaec
+      human_v102/rnas_y.txt: 01df5483aed3d6af72d476efd716536d
+      human_v102/rrnas.txt: d5b8933b60f9e74c8d7d335330e097a1
+      human_v102/rtcircrnas.txt: 91c47ad5dfd338c7e442c8dbd456d307
+      human_v102/rtrna_hla_mt.fa: 084c5ed31a7535b84c2be1d1a5a6d457
+      human_v102/rtrna_hla_mt_index/.1.ebwt: 40c95b57ffb55a534753ea4f5f7299cd
+      human_v102/rtrna_hla_mt_index/.2.ebwt: bb6a11bf01d2f12579ceef77937a3298
+      human_v102/rtrna_hla_mt_index/.3.ebwt: f1f3c0a8f5d7283d38320195209c8bfb
+      human_v102/rtrna_hla_mt_index/.4.ebwt: ccee9861359eeec6294d575e8524101a
+      human_v102/rtrna_hla_mt_index/.rev.1.ebwt: 22ccd60bb6744eb49f923de75b003678
+      human_v102/rtrna_hla_mt_index/.rev.2.ebwt: aa5a1bf9e9784ce876f709207e46c2ad
+      human_v102/rtrna_index/.1.ebwt: c368b1816027580aa6c8eef8a7247305
+      human_v102/rtrna_index/.2.ebwt: df864a8ac643a1d1da46cc6627da4c5d
+      human_v102/rtrna_index/.3.ebwt: 1f5f80a4d9af2de563a970886a31a91d
+      human_v102/rtrna_index/.4.ebwt: 2d85feb8b75e120ef9bb14afbd814879
+      human_v102/rtrna_index/.rev.1.ebwt: 07239a09d52e42b669b906c16ad00353
+      human_v102/rtrna_index/.rev.2.ebwt: 51e86a0cd2880b906710e35f703e2b89
+      human_v102/rtrna_mt_index/.1.ebwt: ff7face52e5d6237bda15289d3c8554a
+      human_v102/rtrna_mt_index/.2.ebwt: 443d63eb08f94fe580f4ec8f158046db
+      human_v102/rtrna_mt_index/.3.ebwt: 90e2d95c90d3620d04d1989643ccadfc
+      human_v102/rtrna_mt_index/.4.ebwt: baa6725bad1c566ffecf44bc155f0bfd
+      human_v102/rtrna_mt_index/.rev.1.ebwt: 36f03b86e87087d5bfe59f6fa3d2ae79
+      human_v102/rtrna_mt_index/.rev.2.ebwt: 9d7043465243852c55b11610e3ee4c83
+      human_v102/shield__report.txt: 1b844450a691c68e3faf472bde8e23ea
+      human_v102/shield_against_pseudo-genes.bed: b0bcba99c227811801186ce761b76a92
+      human_v102/shield_against_pseudo-genes.txt: ae05c5a3a1fc94c8d78442e5f539a47d
+      human_v102/shield_against_pseudo-genes_not-found.txt: d41d8cd98f00b204e9800998ecf8427e
+      human_v102/shield_erase-regions.bed: 55c6f016b75ceaf1f9725536f9951ec5
+      human_v102/shield_pseudogenes-predicted-to-be-erased.bed: 1e620264388e11eba3a9e36aa7947fd1
+      human_v102/shield_pseudogenes-predicted-to-be-erased.txt: 343df92a8f0629ad82c7aa8fd8257a62
+      human_v102/shielded_genes.bed: bb098524605b67ae6f8ba2387aa79945
+      human_v102/shielded_genes.txt: 9b9801e437998ac3b09704d3a0b79218
+      human_v102/shielded_reads_similarity.bed: 21643307cb75aed67b1c2c512e52514a
+      human_v102/snornas.txt: f33c5eebb4af148627002d922d7a6e9a
+      human_v102/snrnas.txt: 8c8e3a8b8718ff13316eae1851aa1da9
+      human_v102/synonyms.txt: dbaea5a7e374e110b4fbb57c2bea3063
+      human_v102/tcga-cancer.txt: 707de914c1c5ff778786e03569731f01
+      human_v102/tcga-normal.txt: 98a1a7a572f1970b08e5257b97c99cde
+      human_v102/tcga.txt: ebb311fe1f7ce59ba656b5747b836c2d
+      human_v102/tcga2.txt: 36c7368f9a8b09505639999d90a74640
+      human_v102/tcga3.txt: 3f29e1c9bb66785800c57b63ad476f6a
+      human_v102/ticdb.txt: 9d451e7df4f74fdb2936ee9b82eceb75
+      human_v102/transcripts.fa: f03092994ec073b7cdfe2bba23ccef2a
+      human_v102/transcripts.txt: 189434df13c3fe68b5857b642b8aea12
+      human_v102/transcripts_index/.1.ebwt: 2d4d0784acabe00b93322d758ce1c807
+      human_v102/transcripts_index/.2.ebwt: 2b25ed2e0655b0d913d4bb73697e0ae6
+      human_v102/transcripts_index/.3.ebwt: 02029818695eec8e071762742ada5efe
+      human_v102/transcripts_index/.4.ebwt: 7ffbe34eb4556886369870049e8dadc8
+      human_v102/transcripts_index/.rev.1.ebwt: ce2459d1a55c63995a1435fbf400a67b
+      human_v102/transcripts_index/.rev.2.ebwt: 6869a5c94f09cca3b82fb5fbfa8da05b
+      human_v102/trnas.txt: caf00f2f6d1a9fba9b9cbe2ab535dfc1
+      human_v102/tumor_genes.txt: a6b120fbb4f38be667158a4d710d9540
+      human_v102/ucsc_fully_overlapping_genes.txt: 90550e334897c4bdad47f3b206783f0e
+      human_v102/ucsc_genes.txt: 5b7347e3a71abaa0027d1bccb33449cc
+      human_v102/ucsc_genes_header.txt: 9aa055ae6c632068ddc0f4c60ad9c82f
+      human_v102/ucsc_partially_overlapping_genes.txt: fc9b824cb36f66844267c4c2b9920e37
+      human_v102/ucsc_same_strand_overlapping_genes.txt: df8c266c940bca4d794ddf8cb2c1478c
+      human_v102/version.txt: 1723475b41a26fff9670798ff1aadd42
+      human_v102/viruses_index/.1.ebwt: 41c4456ab657faf8743d28222f5b274c
+      human_v102/viruses_index/.2.ebwt: ee6295a9dd684ec2b0ae117e3282ca7c
+      human_v102/viruses_index/.3.ebwt: 36dc20b6459b8b497501f6b499a7619b
+      human_v102/viruses_index/.4.ebwt: 020965768e7f6f8485580a19dc83a999
+      human_v102/viruses_index/.rev.1.ebwt: 538183dbc091c5141bb24586ea8e87ba
+      human_v102/viruses_index/.rev.2.ebwt: e52fc9fd20eb05e2fa9b6a196fde5710
+    path: hg19/annotation/fusioncatcher
+    type: folder
+    url: file:/data/ref_data/fusioncatcher/human_v102/human_v102
+gatk_collect_allelic_counts:
+  SNP_interval:
+    checksum: 47cee8e04769d13e1c282fedf7333eac
+    path: hg19/annotation/gnomad/gnomad_SNP_0.001_target.annotated.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gnomad_SNP_0.001_target.annotated.interval_list
+gatk_denoise_read_counts:
+  normal_reference:
+    checksum: cd7bc3c988141ac900156beb19e1f12a
+    path: pipelines/gms560/pon/gatk_cnv_xleap_ns2000_22.hdf5
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_xleap_ns2000_22.hdf5
+  normal_reference_ctdna:
+    checksum: 81193576df0b1edd5735d8413d54ea87
+    path: pipelines/gms560/pon/gatk_cnv_cfDNA_nextseq2000_24.hdf5
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5
+  normal_reference_novaseqX:
+    checksum: da197d7aa245c6d7bd423cc7b292cf37
+    path: pipelines/gms560/pon/gatk_cnv_novaseqX_24_updated.hdf5
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_novaseqX_24_updated.hdf5
+gatk_get_pileup_summaries:
+  variants_tbi:
+    checksum: a52fae234aab2fb4f0d46963f7e6de09
+    path: hg19/annotation/gnomad/small_exac_common_3.hg19.vcf.gz.tbi
+    type: file
+    url: file:/data/ref_genomes/GNOMAD/small_exac_common_3.hg19.vcf.gz.tbi
+gene_fuse:
+  genes:
+    checksum: c35fc6fbf81ce2e1cc55b536742ccf02
+    path: pipelines/gms560/misc/GMS560_fusion_w_pool2.hg19.221117.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/gene_fuse/GMS560_fusion_w_pool2.hg19.221117.csv
+hotspot_report:
+  hotspot_mutations:
+    checksum: 7d45e0362e641b3df0cabf700820adba
+    path: pipelines/gms560/gene_panels/Hotspots_combined_regions_nodups.20260708.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Hotspots_combined_regions_nodups.20260708.csv
+  hotspot_mutations_BRC:
+    checksum: 0f3710ea987c6f78fa47d3231bc85968
+    path: pipelines/gms560/gene_panels/Mutations_Breast_20260223.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Breast_20260223.csv
+  hotspot_mutations_CNS:
+    checksum: 9e07950585cfd284136d54fdd37294df
+    path: pipelines/gms560/gene_panels/Mutations_CNS_20260708.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_CNS_20260708.csv
+  hotspot_mutations_CRC:
+    checksum: fb60cefcf284d6553bf195f8adc8fe4f
+    path: pipelines/gms560/gene_panels/Mutations_Colon_20260504.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Colon_20260504.csv
+  hotspot_mutations_ENC:
+    checksum: 699f38bd0f90efc7401557dd68534404
+    path: pipelines/gms560/gene_panels/Mutations_ENC_20260609.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_ENC_20260609.csv
+  hotspot_mutations_GIS:
+    checksum: f4e449612271b146d3e6dab7ce5e8ad4
+    path: pipelines/gms560/gene_panels/Mutations_Gist_20260304.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Gist_20260304.csv
+  hotspot_mutations_GMS560:
+    checksum: 7e38d515f3bb0b7f707705e1189891c8
+    path: pipelines/gms560/gene_panels/Mutations_GMS560_20260708.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_GMS560_20260708.csv
+  hotspot_mutations_LUN:
+    checksum: 4a56226224144cdad27ebdebe3ab6cb6
+    path: pipelines/gms560/gene_panels/Mutations_Lung_20260223.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Lung_20260223.csv
+  hotspot_mutations_MEL:
+    checksum: 98342a7bd624130d84947c45413b0152
+    path: pipelines/gms560/gene_panels/Mutations_Melanom_20260305.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_Melanom_20260305.csv
+  hotspot_mutations_MTC_or_TYR:
+    checksum: 29ad5a2ecfe819f19d0ae49a627c32b5
+    path: pipelines/gms560/gene_panels/Mutations_MTC_20260223.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_MTC_20260223.csv
+  hotspot_mutations_PIK:
+    checksum: 54a8f1c9b042ae037a8ac4cc4eca2d01
+    path: pipelines/gms560/gene_panels/Mutations_PIK_20260223.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_PIK_20260223.csv
+  hotspot_mutations_URO:
+    checksum: a431ad444b1b682b377860d051a2dfc0
+    path: pipelines/gms560/gene_panels/Mutations_URO_20260223.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_URO_20260223.csv
+  hotspot_mutations_VAS:
+    checksum: 3a38f267b81f63260245c76c9fccdedf
+    path: pipelines/gms560/gene_panels/Mutations_VAS_20260610.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260610.csv
+juli_annotate:
+  cosmic:
+    checksum: b61743a8cd0d0c3513492c717fcfa51a
+    path: hg19/annotation/cosmic/CosmicFusionExport_V76.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/CosmicFusionExport_V76.tsv
+  pfam:
+    checksum: 81cf37cce3d34adb8e0d5df1edebaaeb
+    path: hg19/annotation/other/Pfam-A.full.human
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/Pfam-A.full.human
+  ref_genes:
+    checksum: 225faf771242f46e49e0cb2cbaed4132
+    path: hg19/annotation/refgene/refGene_hg19.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg19.txt
+  uniprot:
+    checksum: 930a8899a7b3451adb7f553340febef6
+    path: hg19/annotation/other/HGNC_GeneName_UniProtID_160524.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/HGNC_GeneName_UniProtID_160524.txt
+juli_call:
+  gap_file:
+    checksum: cb6448d52153b6add870cf26921aea44
+    path: hg19/annotation/other/gap_hg19.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/gap_hg19.txt
+jumble_run:
+  normal_reference:
+    checksum: 2f43cf9f23726be27511641e8fe9262d
+    path: pipelines/gms560/pon/jumble_xleap_ns2000_22.PoN.RDS
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_xleap_ns2000_22.PoN.RDS
+  normal_reference_ctdna:
+    checksum: 36e9bcef8f162cad3a34d09b884584a3
+    path: pipelines/gms560/pon/jumble_cfDNA_nextseq2000_24.RDS
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_cfDNA_nextseq2000_24.RDS
+  normal_reference_novaseqX:
+    checksum: 0f513e596e78473c1dc424bf7c53c783
+    path: pipelines/gms560/pon/jumble_novaseqX_24_updated.RDS
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_24_updated.RDS
+manta_config_t:
+  extra:
+    checksum: b8f464f2af0d71c4e91fcdbd90378b6d
+    path: pipelines/gms560/capture_kits/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.210608.bed.gz
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.210608.bed.gz
+  extra_tbi:
+    checksum: 05ebd6d103b6c40684de610c41cfffde
+    path: pipelines/gms560/capture_kits/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.210608.bed.gz.tbi
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.210608.bed.gz.tbi
+merge_cnv_json:
+  cytobands:
+    checksum: 64de0499795484f1b70410a4cdd3d06f
+    path: hg19/annotation/other/cytoBand.hg19.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cytoBand.hg19.txt
+msisensor:
+  PoN:
+    checksum: 5f511893b13fa5a4e56ac184381c3662
+    path: pipelines/gms560/pon/Msisensor_pro_reference_xleap_ns2000_22.list_baseline
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline
+msisensor_pro_filter_sites:
+  PoN_ctdna:
+    checksum: b27a884afd4dc6bd805a0e793288a462
+    path: pipelines/gms560/pon/Msisensor_pro_reference_cfDNA_nextseq2000_24.list_baseline
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_cfDNA_nextseq2000_24.list_baseline
+  PoN_novaseqX:
+    checksum: 2f6f7b35f34bd645772c9c3552160723
+    path: pipelines/gms560/pon/Msisensor_pro_reference_novaseqX_24_updated.list_baseline
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_novaseqX_24_updated.list_baseline
+  msi_sites_bed:
+    checksum: 74c4fddf7928902c7b107673551b2c8b
+    path: pipelines/gms560/capture_kits/SelectedMSIloci2019Sorted.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/SelectedMSIloci2019Sorted.bed
+purecn:
+  extra_ctDNA:
+    checksum: 4fae05f2c27139ae11c6102c154cdb2c
+    path: pipelines/gms560/pon/mapping_bias_cfDNA_nextseq2000_24.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_cfDNA_nextseq2000_24.rds
+  extra_novaseqX:
+    checksum: a793888e88fe232035b4718cc76c4f39
+    path: pipelines/gms560/pon/mapping_bias_novaseqX_24_updated.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_novaseqX_24_updated.rds
+  intervals:
+    checksum: a19ef4a67f3d370daaac4890fae25097
+    path: pipelines/gms560/capture_kits/targets_twist-gms-st_hg19_25000_xleap_intervals.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt
+  intervals_ctdna:
+    checksum: a19ef4a67f3d370daaac4890fae25097
+    path: pipelines/gms560/capture_kits/targets_twist-gms-st_hg19_25000_cfDNA_intervals.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals.txt
+  intervals_novaseqX:
+    checksum: a19ef4a67f3d370daaac4890fae25097
+    path: pipelines/gms560/capture_kits/targets_twist-gms-st_hg19_25000_novaseqX_24_updated_intervals.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_novaseqX_24_updated_intervals.txt
+  mapping_bias:
+    checksum: d4b86e2def0a260ffe078a21d315f209
+    path: pipelines/gms560/pon/mapping_bias_xleap_ns2000_22.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_xleap_ns2000_22.rds
+  normaldb:
+    checksum: 7be33a28f942b43a97ba99b84a472294
+    path: pipelines/gms560/pon/normalDB_xleap_ns2000_22.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_xleap_ns2000_22.rds
+  normaldb_ctDNA:
+    checksum: 911805d988fb18f4777295a34e1502af
+    path: pipelines/gms560/pon/normalDB_cfDNA_nextseq2000_24.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_cfDNA_nextseq2000_24.rds
+  normaldb_novaseqX:
+    checksum: 7776f1f73299370bb13f272e93e12c37
+    path: pipelines/gms560/pon/normalDB_novaseqX_24_updated.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_novaseqX_24_updated.rds
+reference:
+  artifacts:
+    checksum: ec44b54ef2d8f58a1afd2d14ace4a86b
+    path: pipelines/gms560/pon/artifact_panel_nextseq2000_combo_53.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_nextseq2000_combo_53.tsv
+  artifacts_ctdna:
+    checksum: d790c02d57315237e0b0297a9b56c3bb
+    path: pipelines/gms560/pon/artifact_panel_cfDNA_nextseq2000_24.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24.tsv
+  artifacts_novaseqX:
+    checksum: 76647f5a454a4bd5c5fc26b1fd20931b
+    path: pipelines/gms560/pon/artifact_panel_novaseqX_24_updated.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_novaseqX_24_updated.tsv
+  background:
+    checksum: 6ba98fbbfc989caed5807da8763daba9
+    path: pipelines/gms560/pon/background_panel_nextseq2000_23_dp500_af015.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_nextseq2000_23_dp500_af015.tsv
+  background_ctdna:
+    checksum: 0548ce3c202b779568011f35d4055ec6
+    path: pipelines/gms560/pon/background_panel_cfDNA_nextseq2000_24.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_cfDNA_nextseq2000_24.tsv
+  background_novaseqX:
+    checksum: db686c06b0741ceb20efa454559484be
+    path: pipelines/gms560/pon/background_panel_novaseqX_24_updated.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_novaseqX_24_updated.tsv
+  design_intervals_gatk_cnv:
+    checksum: b3dbb69ea4adeed19c01de0896295fa3
+    path: pipelines/gms560/capture_kits/gatk.preprocessed.xleap_ns2000_22.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.xleap_ns2000_22.interval_list
+references:
+  2bit:
+    checksum: e770665c5085271205b4603ddf615314
+    path: hg19/genome/hg19.with.mt/hg19.with.mt.2bit
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.2bit
+  design_bed:
+    checksum: 06751f8685f1d507f4c48774450c0275
+    path: pipelines/gms560/capture_kits/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.reannotated.230222.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.reannotated.230222.bed
+  design_intervals:
+    checksum: babb76d1e2490619eef47cf5b41db9f7
+    path: pipelines/gms560/capture_kits/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.MUC6_31_rm.exon_only.reannotated.210608.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.MUC6_31_rm.exon_only.reannotated.210608.interval_list
+  design_intervals_gatk_cnv_ctdna:
+    checksum: b3dbb69ea4adeed19c01de0896295fa3
+    path: pipelines/gms560/capture_kits/gatk.preprocessed.cfDNA_nextseq2000_24.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.cfDNA_nextseq2000_24.interval_list
+  design_intervals_gatk_cnv_novaseqX:
+    checksum: b3dbb69ea4adeed19c01de0896295fa3
+    path: pipelines/gms560/capture_kits/gatk.preprocessed.novaseqX_24_updated.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.novaseqX_24_updated.interval_list
+  design_intervals_rna:
+    checksum: 5e38c3495625d3f854859eddf1643ff7
+    path: pipelines/gms560/capture_kits/Twist_RNA_Design5.annotated.20230630.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_Design5.annotated.20230630.interval_list
+  dict:
+    checksum: bfd3a82e44e749f6864084ec51119a09
+    path: hg19/genome/hg19.with.mt/hg19.with.mt.dict
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.dict
+  fai:
+    checksum: 6071b578df509d097874b3e58a1a9fc6
+    path: unclassified/gms560/hg19.with.mt.fai
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fai
+  fai_2:
+    checksum: 6071b578df509d097874b3e58a1a9fc6
+    path: hg19/genome/hg19.with.mt/hg19.with.mt.fasta.fai
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fai
+  fasta:
+    checksum: 7c1739fd43764bd5e3b9b76ce8635bf0
+    path: hg19/genome/hg19.with.mt/hg19.with.mt.fasta
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.fasta
+report_fusions:
+  annotation_bed:
+    checksum: af529c0ece5fe201de4d507000564ff7
+    path: pipelines/gms560/capture_kits/Twist_RNA_fusionpartners.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/Twist_RNA_fusionpartners.bed
+  fp_fusions:
+    checksum: 3886104b8c9c0c73ec8edb40b8d1428d
+    path: pipelines/gms560/misc/filter_rna_fusions_20240923.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_RNA_DATA/bed/filter_rna_fusions_20240923.txt
+report_gene_fuse:
+  filter_fusions:
+    checksum: b6bc58f14e2cee6e481f1cabf1fd2c0b
+    path: pipelines/gms560/misc/filter_fusions_20230214.csv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/gene_fuse/filter_fusions_20230214.csv
+scanitd:
+  region_bed:
+    checksum: eb2d3bfdbb4a37e32fbb34a1730cb5d7
+    path: pipelines/gms560/capture_kits/scanITD_regions.bed
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/scanITD_regions.bed
+somalier:
+  sites:
+    checksum: c5793a3415eea1bb71b38816e27d7398
+    path: hg19/annotation/somalier/sites.hg19.vcf.gz
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/sites.hg19.vcf.gz
+  sites_tbi:
+    checksum: null
+    path: hg19/annotation/somalier/sites.hg19.vcf.gz.tbi
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/sites.hg19.vcf.gz.tbi
+star:
+  genome_index:
+    content_checksum:
+      v2.7.10a_hg19/Genome: c909cdcd92394b388b6c4d59114fb020
+      v2.7.10a_hg19/SA: 90569083f6334b60f98990b345ef30d5
+      v2.7.10a_hg19/SAindex: 9c8afd1168a301a06f77e2f3a8bdf3f7
+      v2.7.10a_hg19/chrLength.txt: 0f64a2d07604490b6224300156c306b8
+      v2.7.10a_hg19/chrName.txt: 0dcde172be736accb508c2f36f497372
+      v2.7.10a_hg19/chrNameLength.txt: 82e36e01fa26480931039ac178ad8e83
+      v2.7.10a_hg19/chrStart.txt: b13f254027a7a2dc1eaf6d8418962278
+      v2.7.10a_hg19/exonGeTrInfo.tab: e361a44a5fb8cde31953c10de9bc0fc7
+      v2.7.10a_hg19/exonInfo.tab: 1765bb10b661ae85f2187f10f0013c6a
+      v2.7.10a_hg19/geneInfo.tab: 4204ecc7415b8559da3956dad9d900a1
+      v2.7.10a_hg19/genomeParameters.txt: 07f7e564fd564b33c96707c6e774e71d
+      v2.7.10a_hg19/sjdbInfo.txt: 1f52300e98b2afc45dae40e84fcdc286
+      v2.7.10a_hg19/sjdbList.fromGTF.out.tab: 1d95981c7f1d11f4a63188c59afbc5f3
+      v2.7.10a_hg19/sjdbList.out.tab: 733e787255f5107fb720cd1a1e21256c
+      v2.7.10a_hg19/transcriptInfo.tab: 30534c855ab814aecf0e2a1cc7c306af
+    path: hg19/index/star
+    type: folder
+    url: file:/data/ref_data/star/v2.7.10a_hg19
+star-fusion:
+  genome_path:
+    content_checksum:
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/AnnotFilterRule.pm: 5391fcc58d9c71cd1f0e45668c5ec597
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/PFAM.domtblout.dat.gz: e7cad012bb29bc95e1b0db14482ae57e
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/blast_pairs.dat.gz: 6424901ec3e9c995b834c9d3259c0771
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/blast_pairs.idx: b71d0e5cd71cf082d6e368d899d90b56
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/cancer_splicing_lib/cancer_splicing.idx: dbdcc2036e2f077da954ac696dc60af2
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/fusion_annot_lib.gz: b3e0a0ffaa8fc7853435c8a2397d366a
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/fusion_annot_lib.idx: cd0b7014584e7d023613e02984bc32cf
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/pfam_domains.dbm: bf4d1789c6bd94461bf3bc099cfcf5b8
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/refGene.bed: 4f40681c556eb6c3a3774c72dae8afed
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/refGene.sort.bed.gz: 155505d932c82de288ac9f827892179a
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/refGene.sort.bed.gz.tbi: 1fe188ee81eefb644264fefe009a7a5b
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.cdna.fa: 3036147b0c50416df9ccfbe0870b0569
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.cdna.fa.idx: 369af8461f786c9abd4f47f979da50b0
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.cds: 6e43b8d20c85a8f1d1c075a8b457100e
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.cdsplus.fa: d9f8736aeb21f9a208e9b88b48278f6b
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.cdsplus.fa.idx: 843f3fa391225ba9f691713fc42e1ccb
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.gtf: 69e0d91528842af33e1ac92a305addb0
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.gtf.gene_spans: 09bf85ad5d2499ed52662ba1f92381c0
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.gtf.mini.sortu: c08014b5322a3e6e7af17850c3f38894
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.pep: e75cd53bf52d555e7913419ad03f46c8
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.prot_info.dbm: 196bf70e87eb0c5640bbebc425319e01
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa: f030f166fbfd1728eb59f90a43d1f2c0
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.fai: e129ec46cc8c4720ea94c887d84abfc1
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.nhr: 6bd31fd9a0148abe074f9e4bdaa138eb
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.nin: 95033ab5b8d395d9ddb5e761e37021d7
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.nsq: 65989cf259cf4cda5995f8c0c3432af2
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/Genome: d684077a65e2d1725cbd26ab37427784
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/SA: 84ade1fff98fd2fa6207cc30cae04641
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/SAindex: b3368b37f79250dfa167fe13107051f0
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/chrLength.txt: be6b16bd7c977a83564b3a5834f95f6b
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/chrName.txt: b5e42c999c76690b7d3356ba51724921
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/chrNameLength.txt: 3c85ebd581899a408a7ce10793b086b2
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/chrStart.txt: 5ac1885586a8a11b2571167bf3bb194a
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/exonGeTrInfo.tab: 3056b83516dda5ec029520407b1d9ea6
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/exonInfo.tab: b6e8285c0f592d4135365a67239b2cbc
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/geneInfo.tab: 81c9183b5c0ab2d12ff9b9b0cec33df1
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/genomeParameters.txt: 2fe2d4855880f2d92803b4460e75a90d
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/sjdbInfo.txt: 2f354d28454bb54054831eed48fe41a0
+      ? GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/sjdbList.fromGTF.out.tab
+      : 1ec75ded0c18a68614ea379826fa6606
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/sjdbList.out.tab: d7cf96222857df81e87aa467149345ee
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.star.idx/transcriptInfo.tab: a1bf060b944620b13c7330fb7f105cc9
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/trans.blast.align_coords.align_coords.dat: 91d415783a580abd184b7bcdfa151e34
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/trans.blast.align_coords.align_coords.dbm: 3dc987f883b92a0f99b41b74e9a11a2a
+      GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/trans.blast.dat.gz: 87cb8061835448491450e6f879f2f604
+    path: hg19/annotation/ctat
+    type: folder
+    url: file:/data/ref_data/star-fusion/GRCh37_gencode_v19_CTAT_lib_Mar012021.plug-n-play
+svdb_query:
+  db_string:
+    checksum: 076f3a9bec5e9941eb4bbbf4594c0037
+    path: pipelines/gms560/pon/all_TN_292_svdb_0.8_20220505.vcf
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/all_TN_292_svdb_0.8_20220505.vcf
+tmb:
+  filter_genes:
+    checksum: c1a958320451fab1200ab769d963d4c6
+    path: pipelines/gms560/misc/tmb_filter_genes.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt
+vep:
+  vep_cache:
+    path: hg19/annotation/vep/VEP
+    type: folder
+    url: file:/data/ref_genomes/VEP
