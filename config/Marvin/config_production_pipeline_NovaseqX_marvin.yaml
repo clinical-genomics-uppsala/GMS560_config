@@ -13,7 +13,7 @@ ichorcna_offtarget_run:
   normal_panel: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_novaseqX_24.rds"
 
 jumble_run:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_24_updated.RDS"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_24_260925.RDS"
 
 msisensor_pro_filter_sites:
   PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_novaseqX_24_updated.list_baseline"
