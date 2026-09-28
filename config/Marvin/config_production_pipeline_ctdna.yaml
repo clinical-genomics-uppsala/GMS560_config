@@ -5,13 +5,13 @@ general_report: "config/reports/general_report.umi.yaml"
 subsample: "seqtk"
 
 reference:
-  background: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_cfDNA_nextseq2000_24.tsv"
-  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24.tsv"
-  design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.cfDNA_nextseq2000_24.interval_list"
+  background: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_cfDNA_nextseq2000_24_260928.tsv"
+  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24_260928.tsv"
+  design_intervals_gatk_cnv: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.cfDNA_nextseq2000_24_260928.interval_list"
   fasta_2bit: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.2bit"
-  
+
 cnvkit_batch:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_cfDNA_nextseq2000_24.cnn"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_cfDNA_nextseq2000_24_260928.cnn"
 
 cnvkit_batch_hrd:
   normal_reference_hrd: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn"
@@ -27,27 +27,27 @@ fragmentomics_metrics:
   exon_strand_mapping: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/fragmentomics/GMS560_specific_cds.hg19.bed"
   
 gatk_denoise_read_counts:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24_260928.hdf5"
 
 ichorcna_offtarget_run:
   normal_panel: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_cfDNA_nextseq2000_24.rds"
 
 jumble_run:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_cfDNA_nextseq2000_24.RDS"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_cfDNA_nextseq2000_24_260928.RDS"
 
 msisensor_pro:
-  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_cfDNA_nextseq2000_24.list_baseline"
+  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_cfDNA_nextseq2000_24_260928.list_baseline"
 
 msisensor_pro_filter_sites:
-  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_cfDNA_nextseq2000_24.list_baseline"
+  PoN: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_cfDNA_nextseq2000_24_260928.list_baseline"
 
 purecn:
-  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_cfDNA_nextseq2000_24.rds"
-  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_cfDNA_nextseq2000_24.rds"
-  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals.txt"
+  extra: "--model betabin --mapping-bias-file /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_cfDNA_nextseq2000_24_260928.rds"
+  normaldb: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_cfDNA_nextseq2000_24_260928.rds"
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals_260928.txt"
 
 purecn_coverage:
-  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals.txt"
+  intervals: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals_260928.txt"
 
 seqtk_subsample:
   nr_reads: 200000000
@@ -61,7 +61,7 @@ chip_annotation:
   chip_hotspot_vcf: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/chip/chip_hotspot_hg19_20260611.vcf.gz"
 
 tmb_umi:
-  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24.tsv"
+  artifacts: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24_260928.tsv"
   filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
   filter_regions:
     - "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/annotation/ENCODE_problematic_regions.bed"
