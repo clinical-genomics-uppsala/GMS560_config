@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.30.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.30.1...v1.30.2) (2026-09-28)
+
+
+### Bug Fixes
+
+* Miarka Jumble PoN ([260eec7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/260eec7830dba61947a80d1912af23a5e441a0f7))
+* Miarka Jumble PoN ([98f1416](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/98f1416618bf67b297c737ae39e04e387e903c0a))
+
 ## [1.30.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.29.0...v1.30.0) (2026-09-28)
 
 
