@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.30.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.29.0...v1.30.0) (2026-09-28)
+
+
+### Features
+
+* new ctDNA PoN ([3367fb7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3367fb72703da72032cbef9cb4eb9a4b6cda918f))
+* new ctDNA PoN ([c3bf2d3](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/c3bf2d3ab87d8b96a59d4c773e209b02c2fdc5bd))
+
 ## [1.29.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.3...v1.29.0) (2026-09-18)
 
 
