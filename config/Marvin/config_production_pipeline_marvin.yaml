@@ -55,6 +55,13 @@ bwa_mem:
   pac: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.pac"
   sa: "/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.sa"
 
+bwa_mem2:
+  "0123": "/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.0123"
+  amb: "/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.amb"
+  ann: "/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.ann"
+  bwt: "/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.bwt.2bit.64"
+  pac: "/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.pac"
+
 call_small_cnv_deletions:
   blacklist: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/small_deletions_caller_blacklist.tsv"
   regions_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/cnv_deletion_genes_240618.tsv"
