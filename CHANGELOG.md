@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.31.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.30.2...v1.31.0) (2026-10-02)
+
+
+### Features
+
+* add bwa-mem2 ([29ab6e1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/29ab6e1be5937f6d632172f5174529bd70b4e4f0))
+* add bwa-mem2 ([e35c047](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e35c04760a8f92a7d819245b5138d39c79b803d3))
+
 ## [1.30.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.30.1...v1.30.2) (2026-09-28)
 
 
