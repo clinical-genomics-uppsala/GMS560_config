@@ -175,7 +175,7 @@ jumble_reference:
   annotation: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_annotation/jumble_annotation_hg38_ensembl116.RDS"
 
 jumble_run:
-  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_GMS-Solid_Uppsala_8_hg38.RDS"
+  normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_GMS-Solid_Uppsala_8_hg38_261007.RDS"
 
 manta_config_t:
   extra: "--exome --callRegions /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/GMS_Solid_target_annotated_hg38.padded.bed.gz"
