@@ -171,6 +171,9 @@ juli_call:
   gap_file: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/gap_hg38.txt"
   ref_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/juli/refGene_hg38.txt"
 
+jumble_reference:
+  annotation: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_annotation/jumble_annotation_hg38_ensembl116.RDS"
+
 jumble_run:
   normal_reference: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_GMS-Solid_Uppsala_8_hg38.RDS"
 
