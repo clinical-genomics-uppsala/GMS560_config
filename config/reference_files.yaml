@@ -37,13 +37,6 @@
       type: file
       url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_xleap_ns2000_22.hdf5
 
-  jumble_run:
-    normal_reference:
-      checksum: 2f43cf9f23726be27511641e8fe9262d
-      path: GMS560/PoN/jumble_xleap_ns2000_22.PoN.RDS
-      type: file
-      url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_xleap_ns2000_22.PoN.RDS
-
   msisensor:
     PoN:
       checksum: 5f511893b13fa5a4e56ac184381c3662

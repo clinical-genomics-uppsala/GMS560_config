@@ -1,5 +1,46 @@
 # Changelog
 
+## [1.31.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.30.2...v1.31.0) (2026-10-02)
+
+
+### Features
+
+* add bwa-mem2 ([29ab6e1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/29ab6e1be5937f6d632172f5174529bd70b4e4f0))
+* add bwa-mem2 ([e35c047](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e35c04760a8f92a7d819245b5138d39c79b803d3))
+
+## [1.30.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.30.1...v1.30.2) (2026-09-28)
+
+
+### Bug Fixes
+
+* Miarka Jumble PoN ([260eec7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/260eec7830dba61947a80d1912af23a5e441a0f7))
+* Miarka Jumble PoN ([98f1416](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/98f1416618bf67b297c737ae39e04e387e903c0a))
+
+## [1.30.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.29.0...v1.30.0) (2026-09-28)
+
+
+### Features
+
+* new ctDNA PoN ([3367fb7](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3367fb72703da72032cbef9cb4eb9a4b6cda918f))
+* new ctDNA PoN ([c3bf2d3](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/c3bf2d3ab87d8b96a59d4c773e209b02c2fdc5bd))
+
+## [1.29.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.3...v1.29.0) (2026-09-18)
+
+
+### Features
+
+* added ichorCNA config ([fe662d2](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/fe662d2f01e98d280c7082612f057429ee660df3))
+* added ichorCNA config ([d3501b1](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/d3501b14fc1b1421fc6c955d5891d75127b938a9))
+* ctDNA miarka ([e63e368](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e63e368fdffa78f51ec7b66419927e64f4a82ccf))
+
+## [1.28.3](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.2...v1.28.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* minor path update on miarka ([e24bbd0](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e24bbd0905a34b005a9998df6ed8c44c7a87ddc3))
+* minor path update on miarka ([7e7ca7f](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/7e7ca7f3fef439fbd204f063e066a5056264f5bb))
+
 ## [1.28.2](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.28.1...v1.28.2) (2026-07-08)
 
 

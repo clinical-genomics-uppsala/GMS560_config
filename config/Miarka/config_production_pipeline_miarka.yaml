@@ -25,7 +25,7 @@ gatk_denoise_read_counts:
   normal_reference: "{{PROJECT_PON_DATA}}/GMS560/PoN/gatk_cnv_xleap_ns2000_22.hdf5"
     
 jumble_run:
-  normal_reference: "{{PROJECT_PON_DATA}}/GMS560/PoN/jumble_xleap_ns2000_22.PoN.RDS"
+  normal_reference: "{{PROJECT_PON_DATA}}/GMS560/PoN/jumble_combined_62_260925.RDS"
 
 msisensor_pro:
   PoN: "{{PROJECT_PON_DATA}}/GMS560/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline"

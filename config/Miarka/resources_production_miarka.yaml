@@ -22,6 +22,12 @@ bwa_mem:
   threads: 10
   time: "8:00:00"
 
+bwa_mem2:
+  mem_mb: 61440
+  mem_per_cpu: 6144
+  threads: 10
+  time: "8:00:00"
+
 bwa_mem_realign_consensus_reads:
   mem_mb: 61440
   mem_per_cpu: 6144
@@ -105,6 +111,12 @@ optitype:
 
 vardict:
   time: "48:00:00"
+
+samtools_sort:
+  threads: 2
+  time: "4:00:00"
+  mem_mb: 12288
+  mem_per_cpu: 6144
 
 star:
   threads: 8
