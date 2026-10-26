@@ -84,9 +84,15 @@ manta_run_workflow_t:
 
 gatk_mutect2_gvcf:
   time: "8:00:00"
+  threads: 2
+  mem_mb: 16384
+  mem_per_cpu: 8182
 
 gatk_mutect2:
   time: "8:00:00"
+  threads: 2
+  mem_mb: 16384
+  mem_per_cpu: 8182
 
 gene_fuse:
   threads: 6
