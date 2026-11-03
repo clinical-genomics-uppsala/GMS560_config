@@ -36,9 +36,6 @@ arriba_draw_fusion:
   gtf: "/data/ref_genomes/hg19/gtf/hg19.refGene.gtf"
   protein_domains: "/data/ref_data/arriba/arriba_v2.3.0/database/protein_domains_hg19_hs37d5_GRCh37_v2.3.0.gff3"
 
-bcftools_annotate:
-  annotation_db: "/data/ref_genomes/GNOMAD/small_exac_common_3.hg19.vcf.gz"
-
 bcftools_filter_include_region:
   exon: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/pool1_pool2.sort.merged.padded20.cnv200.hg19.split_fusion_genes.MUC6_31_rm.exon_only.reannotated.230222.bed"
 
@@ -217,6 +214,9 @@ svdb_query:
   db_string: "--db /projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/SVDB/all_TN_292_svdb_0.8_20220505.vcf --out_frq Twist_AF --out_occ Twist_OCC"
 
 tmb:
+  filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
+
+tmb_cnv_aware:
   filter_genes: "/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/tmb_filter_genes.txt"
 
 vep:
