@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.32.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.31.0...v1.32.0) (2026-10-22)
+
+
+### Features
+
+* add a Miarka PGX profile ([6b2dfae](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/6b2dfaeb147f2f488774411cbb02fa7a5c0e5dcf))
+* add a Miarka PGX profile ([05ea9c6](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/05ea9c6e1285e3a9b242dd25fd7893fedaa33cb1))
+
+
+### Bug Fixes
+
+* use drmaa and the twist_solid wrapper path in the Miarka profiles ([8a7e405](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/8a7e4055e8ac4d9dde42597babb0530dd4bd351a))
+
 ## [1.31.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.30.2...v1.31.0) (2026-10-02)
 
 
