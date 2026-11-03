@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.33.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.32.0...v1.33.0) (2026-11-03)
+
+
+### Features
+
+* Gms solid config ([34f3a43](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/34f3a4302f5b2051d14585c7c7810e03e580c239))
+
+
+### Bug Fixes
+
+* rm unused config ([690905e](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/690905e7551da71450f882338546c40f2f93db22))
+* use drmaa and the twist_solid wrapper path in the Miarka ctDNA p… ([e1afc03](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/e1afc034f597ad277cfd0bf6d6af786a4c5d628a))
+* use drmaa and the twist_solid wrapper path in the Miarka ctDNA profile ([3f0cbf8](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/3f0cbf8692af4723757eb6df92489e016feca9bd))
+
 ## [1.32.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.31.0...v1.32.0) (2026-10-22)
 
 
