@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.34.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.33.0...v1.34.0) (2026-11-10)
+
+
+### Features
+
+* add UV hotspot positions for GMS-Solid ([1da7385](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/1da738526f713499f3c06c4a6337b8b505a07feb))
+* add UV hotspot positions for GMS-Solid ([436a990](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/436a9903138ffac19eb37435d6e83f59e3267375))
+
 ## [1.33.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.32.0...v1.33.0) (2026-11-03)
 
 
