@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.35.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.34.0...v1.35.0) (2026-11-12)
+
+
+### Features
+
+* berk config and profile ([#152](https://github.com/clinical-genomics-uppsala/GMS560_config/issues/152)) ([6e3a99a](https://github.com/clinical-genomics-uppsala/GMS560_config/commit/6e3a99ad35fe06f473efdb8d43bef2c55b4bbd2b))
+
 ## [1.34.0](https://github.com/clinical-genomics-uppsala/GMS560_config/compare/v1.33.0...v1.34.0) (2026-11-10)
 
 
