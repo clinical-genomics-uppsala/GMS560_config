@@ -1,0 +1,133 @@
+default_resources:
+  threads: 1
+  time: "4:00:00"
+  mem_mb: 8000 
+  mem_per_cpu: 8000
+  partition: "core"
+
+arriba:
+  threads: 5
+  time: "8:00:00"
+  mem_mb: 30000
+  mem_per_cpu: 8000
+
+bwa_mem:
+  mem_mb: 80000
+  mem_per_cpu: 8000
+  threads: 10
+  time: "8:00:00"
+
+bwa_mem2:
+  mem_mb: 80000
+  mem_per_cpu: 8000
+  threads: 10
+  time: "8:00:00"
+
+bwa_mem_realign_consensus_reads:
+  mem_mb: 80000
+  mem_per_cpu: 8000
+  threads: 10
+  time: "8:00:00"
+
+fastp_pe:
+  threads: 5
+  mem_mb: 40000
+  mem_per_cpu: 8000
+ 
+fastp_pe_arriba:
+  threads: 5
+  mem_mb: 40000
+  mem_per_cpu: 8000
+  
+fgbio_call_and_filter_consensus_reads:
+  threads: 3
+  mem_mb: 24576
+  mem_per_cpu: 8000
+  time: "8:00:00"
+
+fgbio_group_reads_by_umi:
+  time: "8:00:00"
+
+fuseq_wes:
+  threads: 4
+  mem_mb: 32000
+  mem_per_cpu: 8000
+  time: "24:00:00"
+
+fusioncatcher:
+  threads: 20
+  time: "32:00:00"
+  mem_mb: 160000
+  mem_per_cpu: 8000
+
+vep:
+  threads: 5
+  time: "6:00:00"
+  mem_mb: 40000
+  mem_per_cpu: 8000
+
+fastqc:
+  threads: 2
+  mem_mb: 16000
+  mem_per_cpu: 8000
+
+manta_run_workflow_t:
+  threads: 4
+  time: "8:00:00"
+  mem_mb: 32000
+  mem_per_cpu: 8000
+
+gatk_mutect2_gvcf:
+  threads: 2
+  time: "8:00:00"
+  mem_mb: 16000
+  mem_per_cpu: 8000
+
+gatk_mutect2:
+  threads: 2
+  time: "8:00:00"
+  mem_mb: 16000
+  mem_per_cpu: 8000
+
+gene_fuse:
+  threads: 6
+  time: "8:00:00"
+  mem_mb: 48000
+  mem_per_cpu: 8000
+
+juli_call:
+  threads: 10
+  mem_mb: 80000
+  mem_per_cpu: 8000
+  time: "12:00:00"
+
+jumble_run:
+  threads: 5
+
+optitype:
+  threads: 8
+  time: "4:00:00"
+  mem_mb: 64000
+  mem_per_cpu: 8000
+
+vardict:
+  time: "48:00:00"
+
+samtools_sort:
+  threads: 2
+  time: "4:00:00"
+  mem_mb: 16000
+  mem_per_cpu: 8000
+
+star:
+  threads: 8
+  time: "8:00:00"
+  mem_mb: 64000
+  mem_per_cpu: 8000
+
+star_fusion:
+  threads: 8
+  time: "16:00:00"
+  mem_mb: 64000
+  mem_per_cpu: 8000
+
