@@ -1,0 +1,9 @@
+# Marvin - klusterspecifika sokvagar (D7). Laddas SIST i profilens configfiles.
+#
+# PIPELINE_VERSION (t.ex. v1.9.2) skickas av startscriptet: --config PIPELINE_VERSION=<tag>
+CONTAINER_DIR: /projects/cgu/library/containers
+
+# Lokala klonar av hydra-genetics-modulerna (D9: inget nat under korning).
+# Katalogen ska innehalla <modul>/ med alla taggar som config.yaml pekar pa
+# (klona med --tags, inte --depth 1).
+hydra_local_path: /projects/bin/wp1_gms560/twist_solid/{{PIPELINE_VERSION}}/hydra-genetics

@@ -1,0 +1,9 @@
+# Miarka - klusterspecifika sokvagar (D7). Laddas SIST i profilens configfiles.
+#
+# PIPELINE_VERSION (t.ex. v1.9.2) skickas av startscriptet: --config PIPELINE_VERSION=<tag>
+CONTAINER_DIR: /proj/ngi2024001/nobackup/cgu/library/containers
+
+# Lokala klonar av hydra-genetics-modulerna (D9: inget nat under korning).
+# Samma katalog som tidigare, men med versionen ifylld av startscriptet i stallet
+# for den oexpanderade platshallaren i config_production_pipeline_miarka.yaml.
+hydra_local_path: /proj/ngi2024001/nobackup/bin/wp1_gms560/twist_solid/Twist_Solid_{{PIPELINE_VERSION}}/hydra-genetics

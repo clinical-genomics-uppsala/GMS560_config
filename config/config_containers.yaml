@@ -1,0 +1,239 @@
+# ---------------------------------------------------------------------------
+#  Containrar for de regler som Twist_Solid (GMS, upstream) sjalv satter.
+#
+#  Twist_Solid agas av GMS och patchas inte. Dess config/config.yaml har
+#  docker-URI:er; har finns samma regler med containrar fran CGU:s
+#  containerbibliotek (D10). Genererad ur Twist_Solid v1.9.2 config/config.yaml;
+#  kor om vid uppgradering av workflow-versionen (tools/gen_gms560_containers.py).
+#  Laggs EFTER config/config.yaml i profilernas configfiles.
+# ---------------------------------------------------------------------------
+
+default_container: "{{CONTAINER_DIR}}/hydragenetics__common_4.1.1.sif"
+
+arriba:
+  container: "{{CONTAINER_DIR}}/hydragenetics__arriba_2.3.0.sif"
+
+arriba_draw_fusion:
+  container: "{{CONTAINER_DIR}}/hydragenetics__arriba_2.3.0.sif"
+
+bcbio_variation_recall_ensemble:
+  container: "{{CONTAINER_DIR}}/hydragenetics__bcbio-vc_0.2.6.sif"
+
+bwa_mem:
+  container: "{{CONTAINER_DIR}}/hydragenetics__bwa_mem_0.7.17.sif"
+
+bwa_mem2:
+  container: "{{CONTAINER_DIR}}/hydragenetics__bwa_mem2_2.3.sif"
+
+bwa_mem_realign_consensus_reads:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fgbio_2.1.0.sif"
+
+cnvkit_batch:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.11.sif"
+
+cnvkit_batch_hrd:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.11.sif"
+
+cnvkit_call:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.11.sif"
+
+cnvkit_diagram:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.11.sif"
+
+cnvkit_export_seg:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.11.sif"
+
+cnvkit_scatter:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.11.sif"
+
+ctat_splicing_call:
+  container: "{{CONTAINER_DIR}}/hydragenetics__ctat-splicing_0.0.3.sif"
+
+fastp_pe:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fastp_0.20.1.sif"
+
+fastp_pe_arriba:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fastp_0.20.1.sif"
+
+fastqc:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fastqc_0.11.9.sif"
+
+fgbio_call_and_filter_consensus_reads:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fgbio_2.1.0.sif"
+
+fgbio_call_overlapping_consensus_bases:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fgbio_2.1.0.sif"
+
+fgbio_collect_duplex_seq_metrics:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fgbio_2.1.0.sif"
+
+fgbio_copy_umi_from_read_name:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fgbio_2.1.0.sif"
+
+fgbio_group_reads_by_umi:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fgbio_2.1.0.sif"
+
+finaletoolkit_end_motifs:
+  container: "{{CONTAINER_DIR}}/hydragenetics__finaletoolkit_0.10.7.sif"
+
+finaletoolkit_frag_length_bins:
+  container: "{{CONTAINER_DIR}}/hydragenetics__finaletoolkit_0.10.7.sif"
+
+finaletoolkit_interval_end_motifs:
+  container: "{{CONTAINER_DIR}}/hydragenetics__finaletoolkit_0.10.7.sif"
+
+finaletoolkit_interval_mds:
+  container: "{{CONTAINER_DIR}}/hydragenetics__finaletoolkit_0.10.7.sif"
+
+finaletoolkit_mds:
+  container: "{{CONTAINER_DIR}}/hydragenetics__finaletoolkit_0.10.7.sif"
+
+fragmentomics_fragment_length_patient_score:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fragmentomics_0.1.0.sif"
+
+fragmentomics_metrics:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fragmentomics_metrics_020426.sif"
+
+fuseq_wes:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fuseq_wes_1.0.1.sif"
+
+fusioncatcher:
+  container: "{{CONTAINER_DIR}}/hydragenetics__fusioncatcher_1.33.sif"
+
+gatk_calculate_contamination:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_call_copy_ratio_segments:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_collect_allelic_counts:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_collect_read_counts:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_denoise_read_counts:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_model_segments:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_get_pileup_summaries:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_mutect2:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_mutect2_filter:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_mutect2_gvcf:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gatk_mutect2_merge_stats:
+  container: "{{CONTAINER_DIR}}/hydragenetics__gatk4_4.1.9.0.sif"
+
+gene_fuse:
+  container: "{{CONTAINER_DIR}}/hydragenetics__genefuse_0.6.1.sif"
+
+ichorcna_offtarget_read_counter:
+  container: "{{CONTAINER_DIR}}/hydragenetics__ichorcna_v260817.sif"
+
+ichorcna_offtarget_run:
+  container: "{{CONTAINER_DIR}}/hydragenetics__ichorcna_v260817.sif"
+
+juli_annotate:
+  container: "{{CONTAINER_DIR}}/hydragenetics__juli_0.1.6.2.sif"
+
+juli_call:
+  container: "{{CONTAINER_DIR}}/hydragenetics__juli_0.1.6.2.sif"
+
+jumble_cnvkit_call:
+  container: "{{CONTAINER_DIR}}/hydragenetics__cnvkit_0.9.9.sif"
+
+jumble_run:
+  container: "{{CONTAINER_DIR}}/hydragenetics__jumble_0.5.4.sif"
+
+manta_config_t:
+  container: "{{CONTAINER_DIR}}/hydragenetics__manta_1.6.0.sif"
+
+manta_run_workflow_t:
+  container: "{{CONTAINER_DIR}}/hydragenetics__manta_1.6.0.sif"
+
+mosdepth:
+  container: "{{CONTAINER_DIR}}/hydragenetics__mosdepth_0.3.2.sif"
+
+mosdepth_bed:
+  container: "{{CONTAINER_DIR}}/hydragenetics__mosdepth_0.3.2.sif"
+
+msisensor_pro:
+  container: "{{CONTAINER_DIR}}/hydragenetics__msisensor_pro_1.1.a.sif"
+
+multiqc:
+  container: "{{CONTAINER_DIR}}/hydragenetics__multiqc_1.21.sif"
+
+optitype:
+  container: "{{CONTAINER_DIR}}/fred2__optitype_release-v1.3.1.sif"
+
+picard_collect_alignment_summary_metrics:
+  container: "{{CONTAINER_DIR}}/hydragenetics__picard_2.25.0.sif"
+
+picard_collect_hs_metrics:
+  container: "{{CONTAINER_DIR}}/hydragenetics__picard_2.25.0.sif"
+
+picard_collect_duplication_metrics:
+  container: "{{CONTAINER_DIR}}/hydragenetics__picard_2.25.0.sif"
+
+picard_collect_insert_size_metrics:
+  container: "{{CONTAINER_DIR}}/hydragenetics__picard_2.25.0.sif"
+
+picard_mark_duplicates:
+  container: "{{CONTAINER_DIR}}/hydragenetics__picard_2.25.0.sif"
+
+purecn:
+  container: "{{CONTAINER_DIR}}/hydragenetics__purecn_2.2.0.sif"
+
+purecn_coverage:
+  container: "{{CONTAINER_DIR}}/hydragenetics__purecn_2.2.0.sif"
+
+scarhrd:
+  container: "{{CONTAINER_DIR}}/hydragenetics__scarhrd_20200825.sif"
+
+scanitd:
+  container: "{{CONTAINER_DIR}}/hydragenetics__scanitd_0.9.2.sif"
+
+seqtk_subsample:
+  container: "{{CONTAINER_DIR}}/hydragenetics__seqtk_1.4.sif"
+
+somalier_ungrouped_extract:
+  container: "{{CONTAINER_DIR}}/hydragenetics__somalier_0.2.18.sif"
+
+somalier_ungrouped_relate:
+  container: "{{CONTAINER_DIR}}/hydragenetics__somalier_0.2.18.sif"
+
+star:
+  container: "{{CONTAINER_DIR}}/hydragenetics__star_2.7.10a.sif"
+
+star_fusion:
+  container: "{{CONTAINER_DIR}}/hydragenetics__star-fusion_1.10.1.sif"
+
+svdb_merge:
+  container: "{{CONTAINER_DIR}}/hydragenetics__svdb_2.6.0.sif"
+
+svdb_query:
+  container: "{{CONTAINER_DIR}}/hydragenetics__svdb_2.6.0.sif"
+
+vardict:
+  container: "{{CONTAINER_DIR}}/hydragenetics__vardict_1.8.3.sif"
+
+vep:
+  container: "{{CONTAINER_DIR}}/hydragenetics__vep_105.sif"
+
+vt_decompose:
+  container: "{{CONTAINER_DIR}}/hydragenetics__vt_2015.11.10.sif"
+
+vt_normalize:
+  container: "{{CONTAINER_DIR}}/hydragenetics__vt_2015.11.10.sif"
+
+whatshap_phase:
+  container: "{{CONTAINER_DIR}}/hydragenetics__whatshap_2.8.sif"
