@@ -1,6 +1,6 @@
 # Samlad källista (D14): allt pipelinen behöver enligt Marvins produktionsconfig,
 # med Marvin-sökväg (url), plats i den gemensamma strukturen (path) och md5.
-# 0 poster har checksum: null - kör tools/fill_checksums.py på Marvin.
+# 25 poster har checksum: null - kör tools/fill_checksums.py på Marvin.
 # Genererad av tools/build_reference_tree.py; checkas in som
 # config/references/sources/marvin.yaml på pipelinens harmonize-branch.
 annotate_cnv:
@@ -84,6 +84,32 @@ bwa:
     path: unclassified/gms560/hg19.with.mt.sa
     type: file
     url: file:/data/ref_genomes/hg19/bwa/BWA_0.7.10_refseq/hg19.with.mt.sa
+bwa_mem2:
+  0123_hg19_with_mt_fasta_0123:
+    checksum: null
+    path: hg19/index/bwa-mem2/hg19.with.mt/hg19.with.mt.fasta.0123
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.0123
+  amb_hg19_with_mt_fasta_amb:
+    checksum: null
+    path: hg19/index/bwa-mem2/hg19.with.mt/hg19.with.mt.fasta.amb
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.amb
+  ann_hg19_with_mt_fasta_ann:
+    checksum: null
+    path: hg19/index/bwa-mem2/hg19.with.mt/hg19.with.mt.fasta.ann
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.ann
+  bwt_hg19_with_mt_fasta_bwt_2bit_64:
+    checksum: null
+    path: hg19/index/bwa-mem2/hg19.with.mt/hg19.with.mt.fasta.bwt.2bit.64
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.bwt.2bit.64
+  pac_hg19_with_mt_fasta_pac:
+    checksum: null
+    path: hg19/index/bwa-mem2/hg19.with.mt/hg19.with.mt.fasta.pac
+    type: file
+    url: file:/data/ref_genomes/hg19/bwa_mem2/bwa-mem2_2.3_refseq/hg19.with.mt.fasta.pac
 call_small_cnv_amplifications:
   regions_file:
     checksum: d276c7848ed8fecc034f76bfd815e537
@@ -145,6 +171,11 @@ cnvkit:
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_nextseq2000_23_HRD.cnn
 cnvkit_batch:
+  normal_reference_cnvkit_cfDNA_nextseq2000_24_260928_cnn:
+    checksum: null
+    path: pipelines/gms560/pon/cnvkit_cfDNA_nextseq2000_24_260928.cnn
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/cnvkit_cfDNA_nextseq2000_24_260928.cnn
   normal_reference_ctdna:
     checksum: ebb8bfd2fba4f8de5e4c945e7e686f95
     path: pipelines/gms560/pon/cnvkit_cfDNA_nextseq2000_24.cnn
@@ -449,6 +480,11 @@ gatk_denoise_read_counts:
     path: pipelines/gms560/pon/gatk_cnv_cfDNA_nextseq2000_24.hdf5
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24.hdf5
+  normal_reference_gatk_cnv_cfDNA_nextseq2000_24_260928_hdf5:
+    checksum: null
+    path: pipelines/gms560/pon/gatk_cnv_cfDNA_nextseq2000_24_260928.hdf5
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/gatk_cnv_cfDNA_nextseq2000_24_260928.hdf5
   normal_reference_novaseqX:
     checksum: da197d7aa245c6d7bd423cc7b292cf37
     path: pipelines/gms560/pon/gatk_cnv_novaseqX_24_updated.hdf5
@@ -532,6 +568,17 @@ hotspot_report:
     path: pipelines/gms560/gene_panels/Mutations_VAS_20260610.csv
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/Mutations_VAS_20260610.csv
+ichorcna_offtarget_run:
+  normal_panel_ichorcna_offtarget_cfDNA_nextseq2000_24_rds:
+    checksum: null
+    path: pipelines/gms560/pon/ichorcna_offtarget_cfDNA_nextseq2000_24.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_cfDNA_nextseq2000_24.rds
+  normal_panel_ichorcna_offtarget_novaseqX_24_rds:
+    checksum: null
+    path: pipelines/gms560/pon/ichorcna_offtarget_novaseqX_24.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/ichorcna_offtarget_novaseqX_24.rds
 juli_annotate:
   cosmic:
     checksum: b61743a8cd0d0c3513492c717fcfa51a
@@ -570,6 +617,21 @@ jumble_run:
     path: pipelines/gms560/pon/jumble_cfDNA_nextseq2000_24.RDS
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_cfDNA_nextseq2000_24.RDS
+  normal_reference_jumble_cfDNA_nextseq2000_24_260928_RDS:
+    checksum: null
+    path: pipelines/gms560/pon/jumble_cfDNA_nextseq2000_24_260928.RDS
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_cfDNA_nextseq2000_24_260928.RDS
+  normal_reference_jumble_combined_62_260925_RDS:
+    checksum: null
+    path: pipelines/gms560/pon/jumble_combined_62_260925.RDS
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_combined_62_260925.RDS
+  normal_reference_jumble_novaseqX_24_260925_RDS:
+    checksum: null
+    path: pipelines/gms560/pon/jumble_novaseqX_24_260925.RDS
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/jumble/jumble_novaseqX_24_260925.RDS
   normal_reference_novaseqX:
     checksum: 0f513e596e78473c1dc424bf7c53c783
     path: pipelines/gms560/pon/jumble_novaseqX_24_updated.RDS
@@ -598,6 +660,12 @@ msisensor:
     path: pipelines/gms560/pon/Msisensor_pro_reference_xleap_ns2000_22.list_baseline
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_xleap_ns2000_22.list_baseline
+msisensor_pro:
+  PoN_Msisensor_pro_reference_cfDNA_nextseq2000_24_260928_list_baseline:
+    checksum: null
+    path: pipelines/gms560/pon/Msisensor_pro_reference_cfDNA_nextseq2000_24_260928.list_baseline
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/PoN/Msisensor_pro_reference_cfDNA_nextseq2000_24_260928.list_baseline
 msisensor_pro_filter_sites:
   PoN_ctdna:
     checksum: b27a884afd4dc6bd805a0e793288a462
@@ -620,6 +688,11 @@ purecn:
     path: pipelines/gms560/pon/mapping_bias_cfDNA_nextseq2000_24.rds
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_cfDNA_nextseq2000_24.rds
+  extra_mapping_bias_cfDNA_nextseq2000_24_260928_rds:
+    checksum: null
+    path: pipelines/gms560/pon/mapping_bias_cfDNA_nextseq2000_24_260928.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/mapping_bias_cfDNA_nextseq2000_24_260928.rds
   extra_novaseqX:
     checksum: a793888e88fe232035b4718cc76c4f39
     path: pipelines/gms560/pon/mapping_bias_novaseqX_24_updated.rds
@@ -640,6 +713,11 @@ purecn:
     path: pipelines/gms560/capture_kits/targets_twist-gms-st_hg19_25000_novaseqX_24_updated_intervals.txt
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_novaseqX_24_updated_intervals.txt
+  intervals_targets_twist_gms_st_hg19_25000_cfDNA_intervals_260928_txt:
+    checksum: null
+    path: pipelines/gms560/pon/targets_twist-gms-st_hg19_25000_cfDNA_intervals_260928.txt
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/targets_twist-gms-st_hg19_25000_cfDNA_intervals_260928.txt
   mapping_bias:
     checksum: d4b86e2def0a260ffe078a21d315f209
     path: pipelines/gms560/pon/mapping_bias_xleap_ns2000_22.rds
@@ -655,6 +733,11 @@ purecn:
     path: pipelines/gms560/pon/normalDB_cfDNA_nextseq2000_24.rds
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_cfDNA_nextseq2000_24.rds
+  normaldb_normalDB_cfDNA_nextseq2000_24_260928_rds:
+    checksum: null
+    path: pipelines/gms560/pon/normalDB_cfDNA_nextseq2000_24_260928.rds
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/purecn/normalDB_cfDNA_nextseq2000_24_260928.rds
   normaldb_novaseqX:
     checksum: 7776f1f73299370bb13f272e93e12c37
     path: pipelines/gms560/pon/normalDB_novaseqX_24_updated.rds
@@ -666,6 +749,11 @@ reference:
     path: pipelines/gms560/pon/artifact_panel_nextseq2000_combo_53.tsv
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_nextseq2000_combo_53.tsv
+  artifacts_artifact_panel_cfDNA_nextseq2000_24_260928_tsv:
+    checksum: null
+    path: pipelines/gms560/pon/artifact_panel_cfDNA_nextseq2000_24_260928.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Artifact/artifact_panel_cfDNA_nextseq2000_24_260928.tsv
   artifacts_ctdna:
     checksum: d790c02d57315237e0b0297a9b56c3bb
     path: pipelines/gms560/pon/artifact_panel_cfDNA_nextseq2000_24.tsv
@@ -681,6 +769,11 @@ reference:
     path: pipelines/gms560/pon/background_panel_nextseq2000_23_dp500_af015.tsv
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_nextseq2000_23_dp500_af015.tsv
+  background_background_panel_cfDNA_nextseq2000_24_260928_tsv:
+    checksum: null
+    path: pipelines/gms560/pon/background_panel_cfDNA_nextseq2000_24_260928.tsv
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/Background/background_panel_cfDNA_nextseq2000_24_260928.tsv
   background_ctdna:
     checksum: 0548ce3c202b779568011f35d4055ec6
     path: pipelines/gms560/pon/background_panel_cfDNA_nextseq2000_24.tsv
@@ -696,6 +789,11 @@ reference:
     path: pipelines/gms560/capture_kits/gatk.preprocessed.xleap_ns2000_22.interval_list
     type: file
     url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.xleap_ns2000_22.interval_list
+  design_intervals_gatk_cnv_gatk_preprocessed_cfDNA_nextseq2000_24_260928_interval_list:
+    checksum: null
+    path: pipelines/gms560/capture_kits/gatk.preprocessed.cfDNA_nextseq2000_24_260928.interval_list
+    type: file
+    url: file:/projects/wp1/nobackup/ngs/utveckling/Twist_DNA_DATA/bed/gatk.preprocessed.cfDNA_nextseq2000_24_260928.interval_list
 references:
   2bit:
     checksum: e770665c5085271205b4603ddf615314
