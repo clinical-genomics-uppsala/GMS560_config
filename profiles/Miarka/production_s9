@@ -1,0 +1,23 @@
+latency-wait: 60
+
+configfiles: 
+  - "config/config.yaml"
+  - "config/config.data.hg19.yaml"
+  - "GMS560_config/config/Miarka/config_production_pipeline_miarka.yaml"
+
+executor: drmaa
+drmaa-args: "-p {resources.partition} -t {resources.time} -n {resources.threads} --mem={resources.mem_mb} --mem-per-cpu={resources.mem_per_cpu} -J {rule} -A ngi2024001 -e slurm/{rule}_%j.err -o slurm/{rule}_%j.out --nodes=1-1"
+drmaa-log-dir: "slurm_out"
+
+software-deployment-method: apptainer
+apptainer-args: "--cleanenv -B /proj -B /vulpes -B $TMPDIR:/tmp -B $HOME --nv"
+apptainer-prefix: "/proj/ngi2024001/nobackup/bin/wp1_gms560/apptainer_cache/"
+
+default-resources:
+  - threads=1
+  - time="04:00:00"
+  - partition="high"
+  - mem_mb=3074
+  - mem_per_cpu=3074
+
+wrapper-prefix: "git+file://proj/ngi2024001/nobackup/bin/wp1_gms560/GMS_Solid_migrate-to-snakemake9_v2_20261009/snakemake-wrappers/"
