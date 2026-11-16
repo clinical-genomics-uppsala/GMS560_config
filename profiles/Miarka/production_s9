@@ -1,3 +1,10 @@
+jobs: 200
+keep-going: True
+restart-times: 2
+rerun-incomplete: True
+use-singularity: True
+max-jobs-per-second: 100
+max-status-checks-per-second: 100
 latency-wait: 60
 
 configfiles: 
@@ -10,7 +17,7 @@ drmaa-args: "-p {resources.partition} -t {resources.time} -n {resources.threads}
 drmaa-log-dir: "slurm_out"
 
 software-deployment-method: apptainer
-apptainer-args: "--cleanenv -B /proj -B /vulpes -B $TMPDIR:/tmp -B $HOME --nv"
+apptainer-args: "--cleanenv -B /proj -B /vuilpes -B $TMPDIR:/tmp -B $HOME --nv"
 apptainer-prefix: "/proj/ngi2024001/nobackup/bin/wp1_gms560/apptainer_cache/"
 
 default-resources:
