@@ -3,7 +3,7 @@ keep-going: True
 restart-times: 2
 rerun-incomplete: True
 use-singularity: True
-configfiles: ["config/config.yaml", "config/config.data.hg19.yaml", "GMS560_config/config/Berk/config_production_pipeline_berk.yaml",  "GMS560_config/config/Berg/config_production_pipeline_prio.yaml"]
+configfiles: ["config/config.yaml", "config/config.data.hg19.yaml", "GMS560_config/config/Berk/config_production_pipeline_berk.yaml",  "GMS560_config/config/config_production_pipeline_prio.yaml"]
 singularity-args: "-e --cleanenv --containall -B /berkscale/cgu -B /berkscale/cgu/tmp/gms_solid_tmp:/tmp -B $HOME"
 singularity-prefix: "/berkscale/cgu/bin/apptainer_cache/"
 wrapper-prefix: "git+file://berkscale/cgu/bin/shared_repos/snakemake-wrappers/"
