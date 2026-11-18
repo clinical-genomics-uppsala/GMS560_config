@@ -36,10 +36,10 @@ msisensor_pro_filter_sites:
 purecn:
   extra: "--model betabin --mapping-bias-file {{PROJECT_PON_DATA}}/GMS560/PoN/purecn/mapping_bias_xleap_ns2000_22.rds"
   normaldb: "{{PROJECT_PON_DATA}}/GMS560/PoN/purecn/normalDB_xleap_ns2000_22.rds"
-  intervals: "{{PROJECT_PON_DATA}}/GMS560/PoN/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt"
+  intervals: "{{PROJECT_PON_DATA}}/GMS560/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt"
 
 purecn_coverage:
-  intervals: "{{PROJECT_PON_DATA}}/GMS560/PoN/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt"
+  intervals: "{{PROJECT_PON_DATA}}/GMS560/purecn/targets_twist-gms-st_hg19_25000_xleap_intervals.txt"
 
 seqtk_subsample:
   nr_reads: 150000000
